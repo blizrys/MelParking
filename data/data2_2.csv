@@ -1,0 +1,1532 @@
+index,name,value,year,lastValue,rank
+1,Carlton North,5974,0,,True
+1,Carlton North,353,15,5974,True
+1,Carlton North,283,30,353,True
+1,Carlton North,257,45,283,True
+1,Carlton North,239,60,257,True
+1,Carlton North,179,75,239,True
+1,Carlton North,181,90,179,True
+1,Carlton North,167,105,181,True
+1,Carlton North,167,120,167,True
+1,Carlton North,136,135,167,True
+1,Carlton North,128,150,136,True
+1,Carlton North,152,165,128,True
+1,Carlton North,131,180,152,True
+1,Carlton North,112,195,131,True
+1,Carlton North,103,210,112,True
+1,Carlton North,109,225,103,True
+1,Carlton North,162,240,109,True
+1,Carlton North,128,255,162,True
+1,Carlton North,143,270,128,True
+1,Carlton North,159,285,143,True
+1,Carlton North,262,300,159,True
+1,Carlton North,179,315,262,True
+1,Carlton North,233,330,179,True
+1,Carlton North,318,345,233,True
+1,Carlton North,684,360,318,True
+1,Carlton North,564,375,684,True
+1,Carlton North,752,390,564,True
+1,Carlton North,1070,405,752,True
+1,Carlton North,1261,420,1070,True
+1,Carlton North,1308,435,1261,True
+1,Carlton North,6682,450,1308,True
+1,Carlton North,1488,465,6682,True
+1,Carlton North,1585,480,1488,True
+1,Carlton North,1608,495,1585,True
+1,Carlton North,1654,510,1608,True
+1,Carlton North,1802,525,1654,True
+1,Carlton North,2023,540,1802,True
+1,Carlton North,2216,555,2023,True
+1,Carlton North,2330,570,2216,True
+1,Carlton North,2507,585,2330,True
+1,Carlton North,2768,600,2507,True
+1,Carlton North,2652,615,2768,True
+1,Carlton North,2761,630,2652,True
+1,Carlton North,2702,645,2761,True
+1,Carlton North,2841,660,2702,True
+1,Carlton North,2844,675,2841,True
+1,Carlton North,2865,690,2844,True
+1,Carlton North,2907,705,2865,True
+1,Carlton North,3131,720,2907,True
+1,Carlton North,2819,735,3131,True
+1,Carlton North,3457,750,2819,True
+1,Carlton North,2811,765,3457,True
+1,Carlton North,2839,780,2811,True
+1,Carlton North,2671,795,2839,True
+1,Carlton North,2678,810,2671,True
+1,Carlton North,2631,825,2678,True
+1,Carlton North,2584,840,2631,True
+1,Carlton North,2530,855,2584,True
+1,Carlton North,2323,870,2530,True
+1,Carlton North,2266,885,2323,True
+1,Carlton North,2332,900,2266,True
+1,Carlton North,2133,915,2332,True
+1,Carlton North,2237,930,2133,True
+1,Carlton North,2075,945,2237,True
+1,Carlton North,2159,960,2075,True
+1,Carlton North,2077,975,2159,True
+1,Carlton North,1975,990,2077,True
+1,Carlton North,2030,1005,1975,True
+1,Carlton North,2067,1020,2030,True
+1,Carlton North,2110,1035,2067,True
+1,Carlton North,2187,1050,2110,True
+1,Carlton North,2192,1065,2187,True
+1,Carlton North,2405,1080,2192,True
+1,Carlton North,2238,1095,2405,True
+1,Carlton North,8000,1110,2238,True
+1,Carlton North,1883,1125,8000,True
+1,Carlton North,1807,1140,1883,True
+1,Carlton North,1514,1155,1807,True
+1,Carlton North,1506,1170,1514,True
+1,Carlton North,1220,1185,1506,True
+1,Carlton North,1085,1200,1220,True
+1,Carlton North,1043,1215,1085,True
+1,Carlton North,2005,1230,1043,True
+1,Carlton North,879,1245,2005,True
+1,Carlton North,797,1260,879,True
+1,Carlton North,687,1275,797,True
+1,Carlton North,632,1290,687,True
+1,Carlton North,580,1305,632,True
+1,Carlton North,722,1320,580,True
+1,Carlton North,430,1335,722,True
+1,Carlton North,380,1350,430,True
+1,Carlton North,316,1365,380,True
+1,Carlton North,354,1380,316,True
+1,Carlton North,245,1395,354,True
+1,Carlton North,215,1410,245,True
+1,Carlton North,144,1425,215,True
+3,Carlton South,162300,0,,True
+3,Carlton South,21152,15,162300,True
+3,Carlton South,19572,30,21152,True
+3,Carlton South,18411,45,19572,True
+3,Carlton South,17451,60,18411,True
+3,Carlton South,15843,75,17451,True
+3,Carlton South,14955,90,15843,True
+3,Carlton South,14225,105,14955,True
+3,Carlton South,14437,120,14225,True
+3,Carlton South,13429,135,14437,True
+3,Carlton South,12670,150,13429,True
+3,Carlton South,11998,165,12670,True
+3,Carlton South,12713,180,11998,True
+3,Carlton South,11086,195,12713,True
+3,Carlton South,11145,210,11086,True
+3,Carlton South,11342,225,11145,True
+3,Carlton South,11054,240,11342,True
+3,Carlton South,10469,255,11054,True
+3,Carlton South,10935,270,10469,True
+3,Carlton South,11287,285,10935,True
+3,Carlton South,11830,300,11287,True
+3,Carlton South,12212,315,11830,True
+3,Carlton South,14268,330,12212,True
+3,Carlton South,18453,345,14268,True
+3,Carlton South,24128,360,18453,True
+3,Carlton South,22992,375,24128,True
+3,Carlton South,24546,390,22992,True
+3,Carlton South,27925,405,24546,True
+3,Carlton South,32896,420,27925,True
+3,Carlton South,31674,435,32896,True
+3,Carlton South,111271,450,31674,True
+3,Carlton South,31972,465,111271,True
+3,Carlton South,32830,480,31972,True
+3,Carlton South,32087,495,32830,True
+3,Carlton South,34102,510,32087,True
+3,Carlton South,36741,525,34102,True
+3,Carlton South,42201,540,36741,True
+3,Carlton South,45265,555,42201,True
+3,Carlton South,52106,570,45265,True
+3,Carlton South,52463,585,52106,True
+3,Carlton South,59357,600,52463,True
+3,Carlton South,57256,615,59357,True
+3,Carlton South,57145,630,57256,True
+3,Carlton South,56894,645,57145,True
+3,Carlton South,59550,660,56894,True
+3,Carlton South,57952,675,59550,True
+3,Carlton South,57552,690,57952,True
+3,Carlton South,57647,705,57552,True
+3,Carlton South,59553,720,57647,True
+3,Carlton South,59135,735,59553,True
+3,Carlton South,59337,750,59135,True
+3,Carlton South,57839,765,59337,True
+3,Carlton South,58329,780,57839,True
+3,Carlton South,56300,795,58329,True
+3,Carlton South,56419,810,56300,True
+3,Carlton South,57428,825,56419,True
+3,Carlton South,58689,840,57428,True
+3,Carlton South,56599,855,58689,True
+3,Carlton South,55828,870,56599,True
+3,Carlton South,54815,885,55828,True
+3,Carlton South,56421,900,54815,True
+3,Carlton South,53313,915,56421,True
+3,Carlton South,52785,930,53313,True
+3,Carlton South,51913,945,52785,True
+3,Carlton South,56340,960,51913,True
+3,Carlton South,48209,975,56340,True
+3,Carlton South,49247,990,48209,True
+3,Carlton South,48001,1005,49247,True
+3,Carlton South,49512,1020,48001,True
+3,Carlton South,47110,1035,49512,True
+3,Carlton South,48766,1050,47110,True
+3,Carlton South,49411,1065,48766,True
+3,Carlton South,52507,1080,49411,True
+3,Carlton South,52280,1095,52507,True
+3,Carlton South,122908,1110,52280,True
+3,Carlton South,50512,1125,122908,True
+3,Carlton South,49486,1140,50512,True
+3,Carlton South,44690,1155,49486,True
+3,Carlton South,45963,1170,44690,True
+3,Carlton South,37345,1185,45963,True
+3,Carlton South,36249,1200,37345,True
+3,Carlton South,34955,1215,36249,True
+3,Carlton South,168599,1230,34955,True
+3,Carlton South,30238,1245,168599,True
+3,Carlton South,28525,1260,30238,True
+3,Carlton South,27024,1275,28525,True
+3,Carlton South,26432,1290,27024,True
+3,Carlton South,25098,1305,26432,True
+3,Carlton South,25080,1320,25098,True
+3,Carlton South,23355,1335,25080,True
+3,Carlton South,21649,1350,23355,True
+3,Carlton South,20026,1365,21649,True
+3,Carlton South,18323,1380,20026,True
+3,Carlton South,15088,1395,18323,True
+3,Carlton South,12282,1410,15088,True
+3,Carlton South,9240,1425,12282,True
+5,Docklands,23619,0,,True
+5,Docklands,2987,15,23619,True
+5,Docklands,2762,30,2987,True
+5,Docklands,2482,45,2762,True
+5,Docklands,2265,60,2482,True
+5,Docklands,1996,75,2265,True
+5,Docklands,1924,90,1996,True
+5,Docklands,1862,105,1924,True
+5,Docklands,1964,120,1862,True
+5,Docklands,1863,135,1964,True
+5,Docklands,1637,150,1863,True
+5,Docklands,2137,165,1637,True
+5,Docklands,1890,180,2137,True
+5,Docklands,1345,195,1890,True
+5,Docklands,1287,210,1345,True
+5,Docklands,1331,225,1287,True
+5,Docklands,1240,240,1331,True
+5,Docklands,1302,255,1240,True
+5,Docklands,1332,270,1302,True
+5,Docklands,1376,285,1332,True
+5,Docklands,1413,300,1376,True
+5,Docklands,1605,315,1413,True
+5,Docklands,1937,330,1605,True
+5,Docklands,2782,345,1937,True
+5,Docklands,3789,360,2782,True
+5,Docklands,3830,375,3789,True
+5,Docklands,4663,390,3830,True
+5,Docklands,5247,405,4663,True
+5,Docklands,6561,420,5247,True
+5,Docklands,6775,435,6561,True
+5,Docklands,19316,450,6775,True
+5,Docklands,7752,465,19316,True
+5,Docklands,8323,480,7752,True
+5,Docklands,8380,495,8323,True
+5,Docklands,8758,510,8380,True
+5,Docklands,9771,525,8758,True
+5,Docklands,10680,540,9771,True
+5,Docklands,10769,555,10680,True
+5,Docklands,12162,570,10769,True
+5,Docklands,12718,585,12162,True
+5,Docklands,12909,600,12718,True
+5,Docklands,12359,615,12909,True
+5,Docklands,12296,630,12359,True
+5,Docklands,12389,645,12296,True
+5,Docklands,12729,660,12389,True
+5,Docklands,12676,675,12729,True
+5,Docklands,12484,690,12676,True
+5,Docklands,13057,705,12484,True
+5,Docklands,13220,720,13057,True
+5,Docklands,13390,735,13220,True
+5,Docklands,14303,750,13390,True
+5,Docklands,13415,765,14303,True
+5,Docklands,13314,780,13415,True
+5,Docklands,13044,795,13314,True
+5,Docklands,13035,810,13044,True
+5,Docklands,12892,825,13035,True
+5,Docklands,13077,840,12892,True
+5,Docklands,12445,855,13077,True
+5,Docklands,12213,870,12445,True
+5,Docklands,11774,885,12213,True
+5,Docklands,12601,900,11774,True
+5,Docklands,11811,915,12601,True
+5,Docklands,11278,930,11811,True
+5,Docklands,11500,945,11278,True
+5,Docklands,12873,960,11500,True
+5,Docklands,10762,975,12873,True
+5,Docklands,10802,990,10762,True
+5,Docklands,11112,1005,10802,True
+5,Docklands,11107,1020,11112,True
+5,Docklands,10844,1035,11107,True
+5,Docklands,10927,1050,10844,True
+5,Docklands,10875,1065,10927,True
+5,Docklands,11219,1080,10875,True
+5,Docklands,11096,1095,11219,True
+5,Docklands,18893,1110,11096,True
+5,Docklands,10940,1125,18893,True
+5,Docklands,10370,1140,10940,True
+5,Docklands,9236,1155,10370,True
+5,Docklands,10995,1170,9236,True
+5,Docklands,7487,1185,10995,True
+5,Docklands,6925,1200,7487,True
+5,Docklands,6563,1215,6925,True
+5,Docklands,18479,1230,6563,True
+5,Docklands,7450,1245,18479,True
+5,Docklands,5396,1260,7450,True
+5,Docklands,4821,1275,5396,True
+5,Docklands,4840,1290,4821,True
+5,Docklands,4373,1305,4840,True
+5,Docklands,4240,1320,4373,True
+5,Docklands,3951,1335,4240,True
+5,Docklands,3577,1350,3951,True
+5,Docklands,3157,1365,3577,True
+5,Docklands,3047,1380,3157,True
+5,Docklands,2182,1395,3047,True
+5,Docklands,1868,1410,2182,True
+5,Docklands,1311,1425,1868,True
+7,East Melbourne,31862,0,,True
+7,East Melbourne,2033,15,31862,True
+7,East Melbourne,1794,30,2033,True
+7,East Melbourne,1520,45,1794,True
+7,East Melbourne,1402,60,1520,True
+7,East Melbourne,1230,75,1402,True
+7,East Melbourne,1125,90,1230,True
+7,East Melbourne,1016,105,1125,True
+7,East Melbourne,1091,120,1016,True
+7,East Melbourne,924,135,1091,True
+7,East Melbourne,860,150,924,True
+7,East Melbourne,830,165,860,True
+7,East Melbourne,870,180,830,True
+7,East Melbourne,689,195,870,True
+7,East Melbourne,776,210,689,True
+7,East Melbourne,697,225,776,True
+7,East Melbourne,1005,240,697,True
+7,East Melbourne,873,255,1005,True
+7,East Melbourne,921,270,873,True
+7,East Melbourne,993,285,921,True
+7,East Melbourne,1158,300,993,True
+7,East Melbourne,1228,315,1158,True
+7,East Melbourne,1474,330,1228,True
+7,East Melbourne,2100,345,1474,True
+7,East Melbourne,3160,360,2100,True
+7,East Melbourne,3440,375,3160,True
+7,East Melbourne,4426,390,3440,True
+7,East Melbourne,4821,405,4426,True
+7,East Melbourne,6019,420,4821,True
+7,East Melbourne,6323,435,6019,True
+7,East Melbourne,32873,450,6323,True
+7,East Melbourne,6989,465,32873,True
+7,East Melbourne,7571,480,6989,True
+7,East Melbourne,7691,495,7571,True
+7,East Melbourne,8444,510,7691,True
+7,East Melbourne,9372,525,8444,True
+7,East Melbourne,10949,540,9372,True
+7,East Melbourne,10984,555,10949,True
+7,East Melbourne,12191,570,10984,True
+7,East Melbourne,12695,585,12191,True
+7,East Melbourne,13925,600,12695,True
+7,East Melbourne,13263,615,13925,True
+7,East Melbourne,13007,630,13263,True
+7,East Melbourne,12879,645,13007,True
+7,East Melbourne,13332,660,12879,True
+7,East Melbourne,13013,675,13332,True
+7,East Melbourne,13060,690,13013,True
+7,East Melbourne,13413,705,13060,True
+7,East Melbourne,14358,720,13413,True
+7,East Melbourne,13647,735,14358,True
+7,East Melbourne,16792,750,13647,True
+7,East Melbourne,13647,765,16792,True
+7,East Melbourne,13718,780,13647,True
+7,East Melbourne,13303,795,13718,True
+7,East Melbourne,12938,810,13303,True
+7,East Melbourne,12777,825,12938,True
+7,East Melbourne,13072,840,12777,True
+7,East Melbourne,12386,855,13072,True
+7,East Melbourne,11929,870,12386,True
+7,East Melbourne,11427,885,11929,True
+7,East Melbourne,11844,900,11427,True
+7,East Melbourne,10987,915,11844,True
+7,East Melbourne,11003,930,10987,True
+7,East Melbourne,10593,945,11003,True
+7,East Melbourne,11913,960,10593,True
+7,East Melbourne,10345,975,11913,True
+7,East Melbourne,10536,990,10345,True
+7,East Melbourne,10433,1005,10536,True
+7,East Melbourne,11042,1020,10433,True
+7,East Melbourne,10879,1035,11042,True
+7,East Melbourne,11216,1050,10879,True
+7,East Melbourne,11647,1065,11216,True
+7,East Melbourne,11511,1080,11647,True
+7,East Melbourne,10718,1095,11511,True
+7,East Melbourne,40767,1110,10718,True
+7,East Melbourne,9395,1125,40767,True
+7,East Melbourne,8605,1140,9395,True
+7,East Melbourne,7841,1155,8605,True
+7,East Melbourne,8039,1170,7841,True
+7,East Melbourne,6668,1185,8039,True
+7,East Melbourne,6088,1200,6668,True
+7,East Melbourne,5665,1215,6088,True
+7,East Melbourne,11544,1230,5665,True
+7,East Melbourne,5158,1245,11544,True
+7,East Melbourne,4991,1260,5158,True
+7,East Melbourne,4541,1275,4991,True
+7,East Melbourne,4223,1290,4541,True
+7,East Melbourne,4013,1305,4223,True
+7,East Melbourne,3808,1320,4013,True
+7,East Melbourne,3382,1335,3808,True
+7,East Melbourne,2957,1350,3382,True
+7,East Melbourne,2587,1365,2957,True
+7,East Melbourne,2359,1380,2587,True
+7,East Melbourne,1644,1395,2359,True
+7,East Melbourne,1217,1410,1644,True
+7,East Melbourne,906,1425,1217,True
+9,Footscray,49738,0,,True
+9,Footscray,2436,15,49738,True
+9,Footscray,2045,30,2436,True
+9,Footscray,1695,45,2045,True
+9,Footscray,1677,60,1695,True
+9,Footscray,1337,75,1677,True
+9,Footscray,1159,90,1337,True
+9,Footscray,1092,105,1159,True
+9,Footscray,1207,120,1092,True
+9,Footscray,1007,135,1207,True
+9,Footscray,983,150,1007,True
+9,Footscray,885,165,983,True
+9,Footscray,874,180,885,True
+9,Footscray,812,195,874,True
+9,Footscray,863,210,812,True
+9,Footscray,851,225,863,True
+9,Footscray,1261,240,851,True
+9,Footscray,1288,255,1261,True
+9,Footscray,1246,270,1288,True
+9,Footscray,1319,285,1246,True
+9,Footscray,2069,300,1319,True
+9,Footscray,2011,315,2069,True
+9,Footscray,2476,330,2011,True
+9,Footscray,3618,345,2476,True
+9,Footscray,5276,360,3618,True
+9,Footscray,5324,375,5276,True
+9,Footscray,7109,390,5324,True
+9,Footscray,7607,405,7109,True
+9,Footscray,9412,420,7607,True
+9,Footscray,8894,435,9412,True
+9,Footscray,52557,450,8894,True
+9,Footscray,9694,465,52557,True
+9,Footscray,10875,480,9694,True
+9,Footscray,10688,495,10875,True
+9,Footscray,11346,510,10688,True
+9,Footscray,12081,525,11346,True
+9,Footscray,13679,540,12081,True
+9,Footscray,14062,555,13679,True
+9,Footscray,15316,570,14062,True
+9,Footscray,16586,585,15316,True
+9,Footscray,17419,600,16586,True
+9,Footscray,16479,615,17419,True
+9,Footscray,16448,630,16479,True
+9,Footscray,16268,645,16448,True
+9,Footscray,16788,660,16268,True
+9,Footscray,16300,675,16788,True
+9,Footscray,16807,690,16300,True
+9,Footscray,16665,705,16807,True
+9,Footscray,17711,720,16665,True
+9,Footscray,17125,735,17711,True
+9,Footscray,21764,750,17125,True
+9,Footscray,16904,765,21764,True
+9,Footscray,16985,780,16904,True
+9,Footscray,16333,795,16985,True
+9,Footscray,16068,810,16333,True
+9,Footscray,15992,825,16068,True
+9,Footscray,15866,840,15992,True
+9,Footscray,15056,855,15866,True
+9,Footscray,14602,870,15056,True
+9,Footscray,14052,885,14602,True
+9,Footscray,14324,900,14052,True
+9,Footscray,13640,915,14324,True
+9,Footscray,13283,930,13640,True
+9,Footscray,12883,945,13283,True
+9,Footscray,13284,960,12883,True
+9,Footscray,12349,975,13284,True
+9,Footscray,12564,990,12349,True
+9,Footscray,12609,1005,12564,True
+9,Footscray,13036,1020,12609,True
+9,Footscray,12794,1035,13036,True
+9,Footscray,13319,1050,12794,True
+9,Footscray,13675,1065,13319,True
+9,Footscray,13809,1080,13675,True
+9,Footscray,13004,1095,13809,True
+9,Footscray,50411,1110,13004,True
+9,Footscray,11434,1125,50411,True
+9,Footscray,10837,1140,11434,True
+9,Footscray,9418,1155,10837,True
+9,Footscray,11246,1170,9418,True
+9,Footscray,7899,1185,11246,True
+9,Footscray,7218,1200,7899,True
+9,Footscray,6678,1215,7218,True
+9,Footscray,14039,1230,6678,True
+9,Footscray,5517,1245,14039,True
+9,Footscray,5094,1260,5517,True
+9,Footscray,4606,1275,5094,True
+9,Footscray,4389,1290,4606,True
+9,Footscray,4106,1305,4389,True
+9,Footscray,4213,1320,4106,True
+9,Footscray,3384,1335,4213,True
+9,Footscray,2952,1350,3384,True
+9,Footscray,2519,1365,2952,True
+9,Footscray,2420,1380,2519,True
+9,Footscray,1730,1395,2420,True
+9,Footscray,1450,1410,1730,True
+9,Footscray,1019,1425,1450,True
+11,Highpoint City,561,0,,True
+11,Highpoint City,14,15,561,True
+11,Highpoint City,13,30,14,True
+11,Highpoint City,15,45,13,True
+11,Highpoint City,16,60,15,True
+11,Highpoint City,7,75,16,True
+11,Highpoint City,5,90,7,True
+11,Highpoint City,6,105,5,True
+11,Highpoint City,5,120,6,True
+11,Highpoint City,3,135,5,True
+11,Highpoint City,8,150,3,True
+11,Highpoint City,4,165,8,True
+11,Highpoint City,8,180,4,True
+11,Highpoint City,7,195,8,True
+11,Highpoint City,2,210,7,True
+11,Highpoint City,7,225,2,True
+11,Highpoint City,2,240,7,True
+11,Highpoint City,3,255,2,True
+11,Highpoint City,5,270,3,True
+11,Highpoint City,9,285,5,True
+11,Highpoint City,6,300,9,True
+11,Highpoint City,11,315,6,True
+11,Highpoint City,25,330,11,True
+11,Highpoint City,25,345,25,True
+11,Highpoint City,48,360,25,True
+11,Highpoint City,41,375,48,True
+11,Highpoint City,54,390,41,True
+11,Highpoint City,50,405,54,True
+11,Highpoint City,64,420,50,True
+11,Highpoint City,100,435,64,True
+11,Highpoint City,478,450,100,True
+11,Highpoint City,112,465,478,True
+11,Highpoint City,97,480,112,True
+11,Highpoint City,80,495,97,True
+11,Highpoint City,93,510,80,True
+11,Highpoint City,113,525,93,True
+11,Highpoint City,127,540,113,True
+11,Highpoint City,132,555,127,True
+11,Highpoint City,161,570,132,True
+11,Highpoint City,215,585,161,True
+11,Highpoint City,199,600,215,True
+11,Highpoint City,190,615,199,True
+11,Highpoint City,216,630,190,True
+11,Highpoint City,222,645,216,True
+11,Highpoint City,250,660,222,True
+11,Highpoint City,203,675,250,True
+11,Highpoint City,202,690,203,True
+11,Highpoint City,228,705,202,True
+11,Highpoint City,208,720,228,True
+11,Highpoint City,205,735,208,True
+11,Highpoint City,245,750,205,True
+11,Highpoint City,206,765,245,True
+11,Highpoint City,195,780,206,True
+11,Highpoint City,176,795,195,True
+11,Highpoint City,187,810,176,True
+11,Highpoint City,176,825,187,True
+11,Highpoint City,203,840,176,True
+11,Highpoint City,175,855,203,True
+11,Highpoint City,167,870,175,True
+11,Highpoint City,166,885,167,True
+11,Highpoint City,157,900,166,True
+11,Highpoint City,147,915,157,True
+11,Highpoint City,147,930,147,True
+11,Highpoint City,148,945,147,True
+11,Highpoint City,137,960,148,True
+11,Highpoint City,148,975,137,True
+11,Highpoint City,155,990,148,True
+11,Highpoint City,141,1005,155,True
+11,Highpoint City,119,1020,141,True
+11,Highpoint City,126,1035,119,True
+11,Highpoint City,134,1050,126,True
+11,Highpoint City,135,1065,134,True
+11,Highpoint City,153,1080,135,True
+11,Highpoint City,169,1095,153,True
+11,Highpoint City,528,1110,169,True
+11,Highpoint City,129,1125,528,True
+11,Highpoint City,136,1140,129,True
+11,Highpoint City,124,1155,136,True
+11,Highpoint City,116,1170,124,True
+11,Highpoint City,94,1185,116,True
+11,Highpoint City,85,1200,94,True
+11,Highpoint City,87,1215,85,True
+11,Highpoint City,249,1230,87,True
+11,Highpoint City,61,1245,249,True
+11,Highpoint City,62,1260,61,True
+11,Highpoint City,58,1275,62,True
+11,Highpoint City,60,1290,58,True
+11,Highpoint City,60,1305,60,True
+11,Highpoint City,44,1320,60,True
+11,Highpoint City,45,1335,44,True
+11,Highpoint City,33,1350,45,True
+11,Highpoint City,26,1365,33,True
+11,Highpoint City,20,1380,26,True
+11,Highpoint City,16,1395,20,True
+11,Highpoint City,15,1410,16,True
+11,Highpoint City,6,1425,15,True
+13,Melbourne City,12104,0,,True
+13,Melbourne City,1164,15,12104,True
+13,Melbourne City,1079,30,1164,True
+13,Melbourne City,973,45,1079,True
+13,Melbourne City,939,60,973,True
+13,Melbourne City,806,75,939,True
+13,Melbourne City,733,90,806,True
+13,Melbourne City,700,105,733,True
+13,Melbourne City,691,120,700,True
+13,Melbourne City,691,135,691,True
+13,Melbourne City,598,150,691,True
+13,Melbourne City,557,165,598,True
+13,Melbourne City,711,180,557,True
+13,Melbourne City,540,195,711,True
+13,Melbourne City,556,210,540,True
+13,Melbourne City,548,225,556,True
+13,Melbourne City,564,240,548,True
+13,Melbourne City,563,255,564,True
+13,Melbourne City,480,270,563,True
+13,Melbourne City,519,285,480,True
+13,Melbourne City,687,300,519,True
+13,Melbourne City,776,315,687,True
+13,Melbourne City,988,330,776,True
+13,Melbourne City,1284,345,988,True
+13,Melbourne City,1667,360,1284,True
+13,Melbourne City,1639,375,1667,True
+13,Melbourne City,2043,390,1639,True
+13,Melbourne City,2406,405,2043,True
+13,Melbourne City,2780,420,2406,True
+13,Melbourne City,2594,435,2780,True
+13,Melbourne City,11090,450,2594,True
+13,Melbourne City,2704,465,11090,True
+13,Melbourne City,2923,480,2704,True
+13,Melbourne City,2954,495,2923,True
+13,Melbourne City,3095,510,2954,True
+13,Melbourne City,3245,525,3095,True
+13,Melbourne City,3637,540,3245,True
+13,Melbourne City,3897,555,3637,True
+13,Melbourne City,4011,570,3897,True
+13,Melbourne City,4115,585,4011,True
+13,Melbourne City,4453,600,4115,True
+13,Melbourne City,4102,615,4453,True
+13,Melbourne City,4031,630,4102,True
+13,Melbourne City,4022,645,4031,True
+13,Melbourne City,4393,660,4022,True
+13,Melbourne City,4162,675,4393,True
+13,Melbourne City,4143,690,4162,True
+13,Melbourne City,3985,705,4143,True
+13,Melbourne City,4234,720,3985,True
+13,Melbourne City,4037,735,4234,True
+13,Melbourne City,4163,750,4037,True
+13,Melbourne City,4067,765,4163,True
+13,Melbourne City,4152,780,4067,True
+13,Melbourne City,3992,795,4152,True
+13,Melbourne City,3842,810,3992,True
+13,Melbourne City,3985,825,3842,True
+13,Melbourne City,4041,840,3985,True
+13,Melbourne City,3803,855,4041,True
+13,Melbourne City,3887,870,3803,True
+13,Melbourne City,3684,885,3887,True
+13,Melbourne City,4030,900,3684,True
+13,Melbourne City,3809,915,4030,True
+13,Melbourne City,3815,930,3809,True
+13,Melbourne City,3623,945,3815,True
+13,Melbourne City,4010,960,3623,True
+13,Melbourne City,3494,975,4010,True
+13,Melbourne City,3597,990,3494,True
+13,Melbourne City,3578,1005,3597,True
+13,Melbourne City,3674,1020,3578,True
+13,Melbourne City,3507,1035,3674,True
+13,Melbourne City,3687,1050,3507,True
+13,Melbourne City,3679,1065,3687,True
+13,Melbourne City,3848,1080,3679,True
+13,Melbourne City,3734,1095,3848,True
+13,Melbourne City,10617,1110,3734,True
+13,Melbourne City,3336,1125,10617,True
+13,Melbourne City,3212,1140,3336,True
+13,Melbourne City,2959,1155,3212,True
+13,Melbourne City,4572,1170,2959,True
+13,Melbourne City,2435,1185,4572,True
+13,Melbourne City,2403,1200,2435,True
+13,Melbourne City,2245,1215,2403,True
+13,Melbourne City,8357,1230,2245,True
+13,Melbourne City,2065,1245,8357,True
+13,Melbourne City,1831,1260,2065,True
+13,Melbourne City,1703,1275,1831,True
+13,Melbourne City,1695,1290,1703,True
+13,Melbourne City,1579,1305,1695,True
+13,Melbourne City,1459,1320,1579,True
+13,Melbourne City,1402,1335,1459,True
+13,Melbourne City,1346,1350,1402,True
+13,Melbourne City,1227,1365,1346,True
+13,Melbourne City,1146,1380,1227,True
+13,Melbourne City,819,1395,1146,True
+13,Melbourne City,692,1410,819,True
+13,Melbourne City,448,1425,692,True
+15,No,726,0,,True
+15,No,69,15,726,True
+15,No,66,30,69,True
+15,No,60,45,66,True
+15,No,60,60,60,True
+15,No,41,75,60,True
+15,No,42,90,41,True
+15,No,40,105,42,True
+15,No,37,120,40,True
+15,No,37,135,37,True
+15,No,41,150,37,True
+15,No,43,165,41,True
+15,No,42,180,43,True
+15,No,29,195,42,True
+15,No,27,210,29,True
+15,No,21,225,27,True
+15,No,26,240,21,True
+15,No,23,255,26,True
+15,No,28,270,23,True
+15,No,25,285,28,True
+15,No,25,300,25,True
+15,No,27,315,25,True
+15,No,28,330,27,True
+15,No,45,345,28,True
+15,No,66,360,45,True
+15,No,92,375,66,True
+15,No,114,390,92,True
+15,No,108,405,114,True
+15,No,136,420,108,True
+15,No,127,435,136,True
+15,No,641,450,127,True
+15,No,133,465,641,True
+15,No,145,480,133,True
+15,No,152,495,145,True
+15,No,140,510,152,True
+15,No,170,525,140,True
+15,No,176,540,170,True
+15,No,204,555,176,True
+15,No,201,570,204,True
+15,No,202,585,201,True
+15,No,213,600,202,True
+15,No,227,615,213,True
+15,No,249,630,227,True
+15,No,231,645,249,True
+15,No,233,660,231,True
+15,No,261,675,233,True
+15,No,291,690,261,True
+15,No,301,705,291,True
+15,No,294,720,301,True
+15,No,280,735,294,True
+15,No,349,750,280,True
+15,No,240,765,349,True
+15,No,270,780,240,True
+15,No,288,795,270,True
+15,No,258,810,288,True
+15,No,259,825,258,True
+15,No,247,840,259,True
+15,No,234,855,247,True
+15,No,227,870,234,True
+15,No,225,885,227,True
+15,No,234,900,225,True
+15,No,228,915,234,True
+15,No,216,930,228,True
+15,No,189,945,216,True
+15,No,207,960,189,True
+15,No,183,975,207,True
+15,No,207,990,183,True
+15,No,204,1005,207,True
+15,No,222,1020,204,True
+15,No,213,1035,222,True
+15,No,202,1050,213,True
+15,No,265,1065,202,True
+15,No,265,1080,265,True
+15,No,267,1095,265,True
+15,No,1116,1110,267,True
+15,No,205,1125,1116,True
+15,No,178,1140,205,True
+15,No,179,1155,178,True
+15,No,332,1170,179,True
+15,No,135,1185,332,True
+15,No,143,1200,135,True
+15,No,113,1215,143,True
+15,No,128,1230,113,True
+15,No,121,1245,128,True
+15,No,137,1260,121,True
+15,No,111,1275,137,True
+15,No,111,1290,111,True
+15,No,93,1305,111,True
+15,No,88,1320,93,True
+15,No,79,1335,88,True
+15,No,95,1350,79,True
+15,No,71,1365,95,True
+15,No,66,1380,71,True
+15,No,49,1395,66,True
+15,No,50,1410,49,True
+15,No,32,1425,50,True
+17,North Melbourne,67307,0,,True
+17,North Melbourne,3870,15,67307,True
+17,North Melbourne,3339,30,3870,True
+17,North Melbourne,2763,45,3339,True
+17,North Melbourne,2673,60,2763,True
+17,North Melbourne,2227,75,2673,True
+17,North Melbourne,2069,90,2227,True
+17,North Melbourne,1816,105,2069,True
+17,North Melbourne,1930,120,1816,True
+17,North Melbourne,1570,135,1930,True
+17,North Melbourne,1522,150,1570,True
+17,North Melbourne,1389,165,1522,True
+17,North Melbourne,1419,180,1389,True
+17,North Melbourne,1176,195,1419,True
+17,North Melbourne,1260,210,1176,True
+17,North Melbourne,1345,225,1260,True
+17,North Melbourne,1697,240,1345,True
+17,North Melbourne,1597,255,1697,True
+17,North Melbourne,1816,270,1597,True
+17,North Melbourne,1927,285,1816,True
+17,North Melbourne,2579,300,1927,True
+17,North Melbourne,2873,315,2579,True
+17,North Melbourne,4202,330,2873,True
+17,North Melbourne,5284,345,4202,True
+17,North Melbourne,7134,360,5284,True
+17,North Melbourne,7733,375,7134,True
+17,North Melbourne,9082,390,7733,True
+17,North Melbourne,10920,405,9082,True
+17,North Melbourne,13482,420,10920,True
+17,North Melbourne,13200,435,13482,True
+17,North Melbourne,72501,450,13200,True
+17,North Melbourne,14563,465,72501,True
+17,North Melbourne,16106,480,14563,True
+17,North Melbourne,16189,495,16106,True
+17,North Melbourne,17513,510,16189,True
+17,North Melbourne,18869,525,17513,True
+17,North Melbourne,21506,540,18869,True
+17,North Melbourne,22456,555,21506,True
+17,North Melbourne,24794,570,22456,True
+17,North Melbourne,24779,585,24794,True
+17,North Melbourne,25795,600,24779,True
+17,North Melbourne,24590,615,25795,True
+17,North Melbourne,24994,630,24590,True
+17,North Melbourne,24963,645,24994,True
+17,North Melbourne,26062,660,24963,True
+17,North Melbourne,25610,675,26062,True
+17,North Melbourne,25661,690,25610,True
+17,North Melbourne,25998,705,25661,True
+17,North Melbourne,26814,720,25998,True
+17,North Melbourne,26608,735,26814,True
+17,North Melbourne,32863,750,26608,True
+17,North Melbourne,25513,765,32863,True
+17,North Melbourne,26184,780,25513,True
+17,North Melbourne,25424,795,26184,True
+17,North Melbourne,24988,810,25424,True
+17,North Melbourne,24587,825,24988,True
+17,North Melbourne,25234,840,24587,True
+17,North Melbourne,23035,855,25234,True
+17,North Melbourne,22287,870,23035,True
+17,North Melbourne,21916,885,22287,True
+17,North Melbourne,22252,900,21916,True
+17,North Melbourne,20594,915,22252,True
+17,North Melbourne,20331,930,20594,True
+17,North Melbourne,19527,945,20331,True
+17,North Melbourne,21144,960,19527,True
+17,North Melbourne,18662,975,21144,True
+17,North Melbourne,18819,990,18662,True
+17,North Melbourne,19045,1005,18819,True
+17,North Melbourne,20532,1020,19045,True
+17,North Melbourne,20123,1035,20532,True
+17,North Melbourne,21352,1050,20123,True
+17,North Melbourne,22113,1065,21352,True
+17,North Melbourne,22825,1080,22113,True
+17,North Melbourne,21241,1095,22825,True
+17,North Melbourne,80528,1110,21241,True
+17,North Melbourne,18472,1125,80528,True
+17,North Melbourne,16929,1140,18472,True
+17,North Melbourne,15047,1155,16929,True
+17,North Melbourne,15136,1170,15047,True
+17,North Melbourne,12391,1185,15136,True
+17,North Melbourne,11447,1200,12391,True
+17,North Melbourne,10445,1215,11447,True
+17,North Melbourne,23589,1230,10445,True
+17,North Melbourne,8890,1245,23589,True
+17,North Melbourne,8296,1260,8890,True
+17,North Melbourne,7707,1275,8296,True
+17,North Melbourne,7337,1290,7707,True
+17,North Melbourne,6509,1305,7337,True
+17,North Melbourne,6493,1320,6509,True
+17,North Melbourne,5071,1335,6493,True
+17,North Melbourne,4655,1350,5071,True
+17,North Melbourne,4075,1365,4655,True
+17,North Melbourne,3983,1380,4075,True
+17,North Melbourne,2790,1395,3983,True
+17,North Melbourne,2148,1410,2790,True
+17,North Melbourne,1498,1425,2148,True
+19,Parkville,52554,0,,True
+19,Parkville,2950,15,52554,True
+19,Parkville,2553,30,2950,True
+19,Parkville,2299,45,2553,True
+19,Parkville,2085,60,2299,True
+19,Parkville,1669,75,2085,True
+19,Parkville,1565,90,1669,True
+19,Parkville,1415,105,1565,True
+19,Parkville,1560,120,1415,True
+19,Parkville,1392,135,1560,True
+19,Parkville,1261,150,1392,True
+19,Parkville,1211,165,1261,True
+19,Parkville,1271,180,1211,True
+19,Parkville,1112,195,1271,True
+19,Parkville,1016,210,1112,True
+19,Parkville,1082,225,1016,True
+19,Parkville,1195,240,1082,True
+19,Parkville,1186,255,1195,True
+19,Parkville,1338,270,1186,True
+19,Parkville,1536,285,1338,True
+19,Parkville,1975,300,1536,True
+19,Parkville,2181,315,1975,True
+19,Parkville,2938,330,2181,True
+19,Parkville,3858,345,2938,True
+19,Parkville,5367,360,3858,True
+19,Parkville,5638,375,5367,True
+19,Parkville,6834,390,5638,True
+19,Parkville,8275,405,6834,True
+19,Parkville,10762,420,8275,True
+19,Parkville,10428,435,10762,True
+19,Parkville,54539,450,10428,True
+19,Parkville,11493,465,54539,True
+19,Parkville,12524,480,11493,True
+19,Parkville,12258,495,12524,True
+19,Parkville,13066,510,12258,True
+19,Parkville,14251,525,13066,True
+19,Parkville,16022,540,14251,True
+19,Parkville,16760,555,16022,True
+19,Parkville,18247,570,16760,True
+19,Parkville,19118,585,18247,True
+19,Parkville,20920,600,19118,True
+19,Parkville,20095,615,20920,True
+19,Parkville,20135,630,20095,True
+19,Parkville,20038,645,20135,True
+19,Parkville,20775,660,20038,True
+19,Parkville,20129,675,20775,True
+19,Parkville,20519,690,20129,True
+19,Parkville,20763,705,20519,True
+19,Parkville,21630,720,20763,True
+19,Parkville,20992,735,21630,True
+19,Parkville,25535,750,20992,True
+19,Parkville,20599,765,25535,True
+19,Parkville,20672,780,20599,True
+19,Parkville,19633,795,20672,True
+19,Parkville,19464,810,19633,True
+19,Parkville,19700,825,19464,True
+19,Parkville,19840,840,19700,True
+19,Parkville,18270,855,19840,True
+19,Parkville,17851,870,18270,True
+19,Parkville,17433,885,17851,True
+19,Parkville,17583,900,17433,True
+19,Parkville,16672,915,17583,True
+19,Parkville,16079,930,16672,True
+19,Parkville,15893,945,16079,True
+19,Parkville,16483,960,15893,True
+19,Parkville,14978,975,16483,True
+19,Parkville,15228,990,14978,True
+19,Parkville,15073,1005,15228,True
+19,Parkville,16194,1020,15073,True
+19,Parkville,15811,1035,16194,True
+19,Parkville,16022,1050,15811,True
+19,Parkville,16990,1065,16022,True
+19,Parkville,17745,1080,16990,True
+19,Parkville,16455,1095,17745,True
+19,Parkville,61102,1110,16455,True
+19,Parkville,14329,1125,61102,True
+19,Parkville,13350,1140,14329,True
+19,Parkville,11975,1155,13350,True
+19,Parkville,12307,1170,11975,True
+19,Parkville,9728,1185,12307,True
+19,Parkville,9238,1200,9728,True
+19,Parkville,8205,1215,9238,True
+19,Parkville,16366,1230,8205,True
+19,Parkville,7163,1245,16366,True
+19,Parkville,6710,1260,7163,True
+19,Parkville,6308,1275,6710,True
+19,Parkville,5927,1290,6308,True
+19,Parkville,5457,1305,5927,True
+19,Parkville,5635,1320,5457,True
+19,Parkville,4485,1335,5635,True
+19,Parkville,4008,1350,4485,True
+19,Parkville,3514,1365,4008,True
+19,Parkville,3503,1380,3514,True
+19,Parkville,2437,1395,3503,True
+19,Parkville,1982,1410,2437,True
+19,Parkville,1329,1425,1982,True
+21,Port Melbourne,29574,0,,True
+21,Port Melbourne,1342,15,29574,True
+21,Port Melbourne,1129,30,1342,True
+21,Port Melbourne,1084,45,1129,True
+21,Port Melbourne,1026,60,1084,True
+21,Port Melbourne,864,75,1026,True
+21,Port Melbourne,779,90,864,True
+21,Port Melbourne,679,105,779,True
+21,Port Melbourne,716,120,679,True
+21,Port Melbourne,608,135,716,True
+21,Port Melbourne,537,150,608,True
+21,Port Melbourne,552,165,537,True
+21,Port Melbourne,499,180,552,True
+21,Port Melbourne,457,195,499,True
+21,Port Melbourne,394,210,457,True
+21,Port Melbourne,379,225,394,True
+21,Port Melbourne,543,240,379,True
+21,Port Melbourne,520,255,543,True
+21,Port Melbourne,533,270,520,True
+21,Port Melbourne,678,285,533,True
+21,Port Melbourne,858,300,678,True
+21,Port Melbourne,1056,315,858,True
+21,Port Melbourne,1350,330,1056,True
+21,Port Melbourne,1623,345,1350,True
+21,Port Melbourne,2635,360,1623,True
+21,Port Melbourne,2657,375,2635,True
+21,Port Melbourne,3554,390,2657,True
+21,Port Melbourne,4582,405,3554,True
+21,Port Melbourne,5372,420,4582,True
+21,Port Melbourne,5177,435,5372,True
+21,Port Melbourne,30178,450,5177,True
+21,Port Melbourne,5674,465,30178,True
+21,Port Melbourne,6141,480,5674,True
+21,Port Melbourne,6259,495,6141,True
+21,Port Melbourne,6879,510,6259,True
+21,Port Melbourne,7601,525,6879,True
+21,Port Melbourne,8723,540,7601,True
+21,Port Melbourne,9470,555,8723,True
+21,Port Melbourne,10155,570,9470,True
+21,Port Melbourne,10443,585,10155,True
+21,Port Melbourne,11168,600,10443,True
+21,Port Melbourne,10737,615,11168,True
+21,Port Melbourne,11024,630,10737,True
+21,Port Melbourne,10876,645,11024,True
+21,Port Melbourne,11080,660,10876,True
+21,Port Melbourne,10725,675,11080,True
+21,Port Melbourne,10761,690,10725,True
+21,Port Melbourne,10990,705,10761,True
+21,Port Melbourne,11238,720,10990,True
+21,Port Melbourne,11271,735,11238,True
+21,Port Melbourne,13689,750,11271,True
+21,Port Melbourne,11192,765,13689,True
+21,Port Melbourne,11352,780,11192,True
+21,Port Melbourne,10910,795,11352,True
+21,Port Melbourne,10911,810,10910,True
+21,Port Melbourne,10702,825,10911,True
+21,Port Melbourne,10782,840,10702,True
+21,Port Melbourne,10026,855,10782,True
+21,Port Melbourne,9537,870,10026,True
+21,Port Melbourne,9216,885,9537,True
+21,Port Melbourne,9395,900,9216,True
+21,Port Melbourne,8990,915,9395,True
+21,Port Melbourne,8484,930,8990,True
+21,Port Melbourne,8234,945,8484,True
+21,Port Melbourne,8370,960,8234,True
+21,Port Melbourne,7730,975,8370,True
+21,Port Melbourne,7696,990,7730,True
+21,Port Melbourne,7738,1005,7696,True
+21,Port Melbourne,8237,1020,7738,True
+21,Port Melbourne,8152,1035,8237,True
+21,Port Melbourne,8244,1050,8152,True
+21,Port Melbourne,8644,1065,8244,True
+21,Port Melbourne,9190,1080,8644,True
+21,Port Melbourne,8678,1095,9190,True
+21,Port Melbourne,32610,1110,8678,True
+21,Port Melbourne,7449,1125,32610,True
+21,Port Melbourne,7361,1140,7449,True
+21,Port Melbourne,6745,1155,7361,True
+21,Port Melbourne,6305,1170,6745,True
+21,Port Melbourne,5531,1185,6305,True
+21,Port Melbourne,5263,1200,5531,True
+21,Port Melbourne,4778,1215,5263,True
+21,Port Melbourne,9803,1230,4778,True
+21,Port Melbourne,3944,1245,9803,True
+21,Port Melbourne,3672,1260,3944,True
+21,Port Melbourne,3303,1275,3672,True
+21,Port Melbourne,3027,1290,3303,True
+21,Port Melbourne,2803,1305,3027,True
+21,Port Melbourne,2651,1320,2803,True
+21,Port Melbourne,2183,1335,2651,True
+21,Port Melbourne,1961,1350,2183,True
+21,Port Melbourne,1658,1365,1961,True
+21,Port Melbourne,1736,1380,1658,True
+21,Port Melbourne,1065,1395,1736,True
+21,Port Melbourne,846,1410,1065,True
+21,Port Melbourne,518,1425,846,True
+23,South Melbourne,12773,0,,True
+23,South Melbourne,668,15,12773,True
+23,South Melbourne,655,30,668,True
+23,South Melbourne,466,45,655,True
+23,South Melbourne,439,60,466,True
+23,South Melbourne,352,75,439,True
+23,South Melbourne,349,90,352,True
+23,South Melbourne,251,105,349,True
+23,South Melbourne,303,120,251,True
+23,South Melbourne,256,135,303,True
+23,South Melbourne,245,150,256,True
+23,South Melbourne,216,165,245,True
+23,South Melbourne,217,180,216,True
+23,South Melbourne,174,195,217,True
+23,South Melbourne,169,210,174,True
+23,South Melbourne,152,225,169,True
+23,South Melbourne,204,240,152,True
+23,South Melbourne,241,255,204,True
+23,South Melbourne,261,270,241,True
+23,South Melbourne,255,285,261,True
+23,South Melbourne,347,300,255,True
+23,South Melbourne,495,315,347,True
+23,South Melbourne,752,330,495,True
+23,South Melbourne,828,345,752,True
+23,South Melbourne,1122,360,828,True
+23,South Melbourne,1308,375,1122,True
+23,South Melbourne,1468,390,1308,True
+23,South Melbourne,1659,405,1468,True
+23,South Melbourne,2247,420,1659,True
+23,South Melbourne,2130,435,2247,True
+23,South Melbourne,12884,450,2130,True
+23,South Melbourne,2299,465,12884,True
+23,South Melbourne,2482,480,2299,True
+23,South Melbourne,2463,495,2482,True
+23,South Melbourne,2741,510,2463,True
+23,South Melbourne,3120,525,2741,True
+23,South Melbourne,3605,540,3120,True
+23,South Melbourne,3909,555,3605,True
+23,South Melbourne,4261,570,3909,True
+23,South Melbourne,4275,585,4261,True
+23,South Melbourne,4565,600,4275,True
+23,South Melbourne,4310,615,4565,True
+23,South Melbourne,4389,630,4310,True
+23,South Melbourne,4461,645,4389,True
+23,South Melbourne,4714,660,4461,True
+23,South Melbourne,4604,675,4714,True
+23,South Melbourne,4561,690,4604,True
+23,South Melbourne,4673,705,4561,True
+23,South Melbourne,4775,720,4673,True
+23,South Melbourne,4601,735,4775,True
+23,South Melbourne,5665,750,4601,True
+23,South Melbourne,4538,765,5665,True
+23,South Melbourne,4660,780,4538,True
+23,South Melbourne,4496,795,4660,True
+23,South Melbourne,4368,810,4496,True
+23,South Melbourne,4540,825,4368,True
+23,South Melbourne,4554,840,4540,True
+23,South Melbourne,4130,855,4554,True
+23,South Melbourne,3957,870,4130,True
+23,South Melbourne,3788,885,3957,True
+23,South Melbourne,3974,900,3788,True
+23,South Melbourne,3738,915,3974,True
+23,South Melbourne,3636,930,3738,True
+23,South Melbourne,3437,945,3636,True
+23,South Melbourne,3952,960,3437,True
+23,South Melbourne,3305,975,3952,True
+23,South Melbourne,3347,990,3305,True
+23,South Melbourne,3417,1005,3347,True
+23,South Melbourne,3442,1020,3417,True
+23,South Melbourne,3408,1035,3442,True
+23,South Melbourne,3597,1050,3408,True
+23,South Melbourne,3692,1065,3597,True
+23,South Melbourne,3946,1080,3692,True
+23,South Melbourne,3753,1095,3946,True
+23,South Melbourne,13882,1110,3753,True
+23,South Melbourne,3336,1125,13882,True
+23,South Melbourne,3066,1140,3336,True
+23,South Melbourne,2871,1155,3066,True
+23,South Melbourne,2639,1170,2871,True
+23,South Melbourne,2370,1185,2639,True
+23,South Melbourne,2306,1200,2370,True
+23,South Melbourne,2171,1215,2306,True
+23,South Melbourne,4493,1230,2171,True
+23,South Melbourne,1981,1245,4493,True
+23,South Melbourne,1716,1260,1981,True
+23,South Melbourne,1609,1275,1716,True
+23,South Melbourne,1540,1290,1609,True
+23,South Melbourne,1357,1305,1540,True
+23,South Melbourne,1390,1320,1357,True
+23,South Melbourne,1068,1335,1390,True
+23,South Melbourne,1003,1350,1068,True
+23,South Melbourne,891,1365,1003,True
+23,South Melbourne,759,1380,891,True
+23,South Melbourne,495,1395,759,True
+23,South Melbourne,392,1410,495,True
+23,South Melbourne,251,1425,392,True
+25,South Yarra,18992,0,,True
+25,South Yarra,1173,15,18992,True
+25,South Yarra,971,30,1173,True
+25,South Yarra,843,45,971,True
+25,South Yarra,699,60,843,True
+25,South Yarra,612,75,699,True
+25,South Yarra,570,90,612,True
+25,South Yarra,483,105,570,True
+25,South Yarra,547,120,483,True
+25,South Yarra,401,135,547,True
+25,South Yarra,411,150,401,True
+25,South Yarra,385,165,411,True
+25,South Yarra,402,180,385,True
+25,South Yarra,370,195,402,True
+25,South Yarra,349,210,370,True
+25,South Yarra,354,225,349,True
+25,South Yarra,380,240,354,True
+25,South Yarra,468,255,380,True
+25,South Yarra,509,270,468,True
+25,South Yarra,532,285,509,True
+25,South Yarra,664,300,532,True
+25,South Yarra,690,315,664,True
+25,South Yarra,818,330,690,True
+25,South Yarra,1384,345,818,True
+25,South Yarra,2086,360,1384,True
+25,South Yarra,1963,375,2086,True
+25,South Yarra,2609,390,1963,True
+25,South Yarra,3145,405,2609,True
+25,South Yarra,3825,420,3145,True
+25,South Yarra,3832,435,3825,True
+25,South Yarra,19287,450,3832,True
+25,South Yarra,4195,465,19287,True
+25,South Yarra,4679,480,4195,True
+25,South Yarra,4918,495,4679,True
+25,South Yarra,5168,510,4918,True
+25,South Yarra,5748,525,5168,True
+25,South Yarra,6376,540,5748,True
+25,South Yarra,6516,555,6376,True
+25,South Yarra,7228,570,6516,True
+25,South Yarra,7365,585,7228,True
+25,South Yarra,7811,600,7365,True
+25,South Yarra,7529,615,7811,True
+25,South Yarra,7601,630,7529,True
+25,South Yarra,7684,645,7601,True
+25,South Yarra,8083,660,7684,True
+25,South Yarra,7712,675,8083,True
+25,South Yarra,7756,690,7712,True
+25,South Yarra,7717,705,7756,True
+25,South Yarra,8066,720,7717,True
+25,South Yarra,7842,735,8066,True
+25,South Yarra,9626,750,7842,True
+25,South Yarra,7704,765,9626,True
+25,South Yarra,7789,780,7704,True
+25,South Yarra,7566,795,7789,True
+25,South Yarra,7471,810,7566,True
+25,South Yarra,7278,825,7471,True
+25,South Yarra,7459,840,7278,True
+25,South Yarra,6825,855,7459,True
+25,South Yarra,6728,870,6825,True
+25,South Yarra,6563,885,6728,True
+25,South Yarra,6763,900,6563,True
+25,South Yarra,6182,915,6763,True
+25,South Yarra,6176,930,6182,True
+25,South Yarra,5937,945,6176,True
+25,South Yarra,6236,960,5937,True
+25,South Yarra,5822,975,6236,True
+25,South Yarra,6111,990,5822,True
+25,South Yarra,6029,1005,6111,True
+25,South Yarra,6156,1020,6029,True
+25,South Yarra,6151,1035,6156,True
+25,South Yarra,6351,1050,6151,True
+25,South Yarra,6726,1065,6351,True
+25,South Yarra,7003,1080,6726,True
+25,South Yarra,6746,1095,7003,True
+25,South Yarra,24726,1110,6746,True
+25,South Yarra,5697,1125,24726,True
+25,South Yarra,5215,1140,5697,True
+25,South Yarra,4691,1155,5215,True
+25,South Yarra,5058,1170,4691,True
+25,South Yarra,3812,1185,5058,True
+25,South Yarra,3554,1200,3812,True
+25,South Yarra,3327,1215,3554,True
+25,South Yarra,5386,1230,3327,True
+25,South Yarra,2911,1245,5386,True
+25,South Yarra,2693,1260,2911,True
+25,South Yarra,2462,1275,2693,True
+25,South Yarra,2370,1290,2462,True
+25,South Yarra,2165,1305,2370,True
+25,South Yarra,2118,1320,2165,True
+25,South Yarra,1710,1335,2118,True
+25,South Yarra,1521,1350,1710,True
+25,South Yarra,1381,1365,1521,True
+25,South Yarra,1281,1380,1381,True
+25,South Yarra,836,1395,1281,True
+25,South Yarra,715,1410,836,True
+25,South Yarra,511,1425,715,True
+27,Southbank,6298,0,,True
+27,Southbank,571,15,6298,True
+27,Southbank,534,30,571,True
+27,Southbank,536,45,534,True
+27,Southbank,432,60,536,True
+27,Southbank,381,75,432,True
+27,Southbank,335,90,381,True
+27,Southbank,347,105,335,True
+27,Southbank,361,120,347,True
+27,Southbank,304,135,361,True
+27,Southbank,295,150,304,True
+27,Southbank,298,165,295,True
+27,Southbank,322,180,298,True
+27,Southbank,251,195,322,True
+27,Southbank,274,210,251,True
+27,Southbank,291,225,274,True
+27,Southbank,324,240,291,True
+27,Southbank,276,255,324,True
+27,Southbank,281,270,276,True
+27,Southbank,252,285,281,True
+27,Southbank,262,300,252,True
+27,Southbank,312,315,262,True
+27,Southbank,333,330,312,True
+27,Southbank,424,345,333,True
+27,Southbank,1003,360,424,True
+27,Southbank,579,375,1003,True
+27,Southbank,713,390,579,True
+27,Southbank,879,405,713,True
+27,Southbank,1096,420,879,True
+27,Southbank,1164,435,1096,True
+27,Southbank,5456,450,1164,True
+27,Southbank,1346,465,5456,True
+27,Southbank,1545,480,1346,True
+27,Southbank,1651,495,1545,True
+27,Southbank,1651,510,1651,True
+27,Southbank,1835,525,1651,True
+27,Southbank,2089,540,1835,True
+27,Southbank,2041,555,2089,True
+27,Southbank,2308,570,2041,True
+27,Southbank,2247,585,2308,True
+27,Southbank,2572,600,2247,True
+27,Southbank,2553,615,2572,True
+27,Southbank,2552,630,2553,True
+27,Southbank,2620,645,2552,True
+27,Southbank,2604,660,2620,True
+27,Southbank,2548,675,2604,True
+27,Southbank,2562,690,2548,True
+27,Southbank,2658,705,2562,True
+27,Southbank,2753,720,2658,True
+27,Southbank,2691,735,2753,True
+27,Southbank,2917,750,2691,True
+27,Southbank,2589,765,2917,True
+27,Southbank,2563,780,2589,True
+27,Southbank,2516,795,2563,True
+27,Southbank,2451,810,2516,True
+27,Southbank,2499,825,2451,True
+27,Southbank,2479,840,2499,True
+27,Southbank,2296,855,2479,True
+27,Southbank,2236,870,2296,True
+27,Southbank,2120,885,2236,True
+27,Southbank,2205,900,2120,True
+27,Southbank,2058,915,2205,True
+27,Southbank,2058,930,2058,True
+27,Southbank,1901,945,2058,True
+27,Southbank,2095,960,1901,True
+27,Southbank,1900,975,2095,True
+27,Southbank,1753,990,1900,True
+27,Southbank,1775,1005,1753,True
+27,Southbank,1801,1020,1775,True
+27,Southbank,1792,1035,1801,True
+27,Southbank,1841,1050,1792,True
+27,Southbank,1931,1065,1841,True
+27,Southbank,1846,1080,1931,True
+27,Southbank,1827,1095,1846,True
+27,Southbank,5464,1110,1827,True
+27,Southbank,1696,1125,5464,True
+27,Southbank,1748,1140,1696,True
+27,Southbank,1682,1155,1748,True
+27,Southbank,1815,1170,1682,True
+27,Southbank,1369,1185,1815,True
+27,Southbank,1299,1200,1369,True
+27,Southbank,1198,1215,1299,True
+27,Southbank,3064,1230,1198,True
+27,Southbank,1020,1245,3064,True
+27,Southbank,1023,1260,1020,True
+27,Southbank,969,1275,1023,True
+27,Southbank,889,1290,969,True
+27,Southbank,863,1305,889,True
+27,Southbank,787,1320,863,True
+27,Southbank,713,1335,787,True
+27,Southbank,686,1350,713,True
+27,Southbank,620,1365,686,True
+27,Southbank,593,1380,620,True
+27,Southbank,452,1395,593,True
+27,Southbank,386,1410,452,True
+27,Southbank,259,1425,386,True
+29,West Melbourne,28932,0,,True
+29,West Melbourne,1863,15,28932,True
+29,West Melbourne,1667,30,1863,True
+29,West Melbourne,1456,45,1667,True
+29,West Melbourne,1348,60,1456,True
+29,West Melbourne,1176,75,1348,True
+29,West Melbourne,1099,90,1176,True
+29,West Melbourne,950,105,1099,True
+29,West Melbourne,916,120,950,True
+29,West Melbourne,732,135,916,True
+29,West Melbourne,632,150,732,True
+29,West Melbourne,577,165,632,True
+29,West Melbourne,733,180,577,True
+29,West Melbourne,659,195,733,True
+29,West Melbourne,691,210,659,True
+29,West Melbourne,668,225,691,True
+29,West Melbourne,805,240,668,True
+29,West Melbourne,845,255,805,True
+29,West Melbourne,832,270,845,True
+29,West Melbourne,950,285,832,True
+29,West Melbourne,1029,300,950,True
+29,West Melbourne,1414,315,1029,True
+29,West Melbourne,1822,330,1414,True
+29,West Melbourne,2454,345,1822,True
+29,West Melbourne,3756,360,2454,True
+29,West Melbourne,3455,375,3756,True
+29,West Melbourne,3952,390,3455,True
+29,West Melbourne,4977,405,3952,True
+29,West Melbourne,5814,420,4977,True
+29,West Melbourne,5638,435,5814,True
+29,West Melbourne,28289,450,5638,True
+29,West Melbourne,6064,465,28289,True
+29,West Melbourne,6776,480,6064,True
+29,West Melbourne,6699,495,6776,True
+29,West Melbourne,7195,510,6699,True
+29,West Melbourne,7705,525,7195,True
+29,West Melbourne,8656,540,7705,True
+29,West Melbourne,9309,555,8656,True
+29,West Melbourne,10512,570,9309,True
+29,West Melbourne,10592,585,10512,True
+29,West Melbourne,11063,600,10592,True
+29,West Melbourne,10813,615,11063,True
+29,West Melbourne,10448,630,10813,True
+29,West Melbourne,10830,645,10448,True
+29,West Melbourne,11141,660,10830,True
+29,West Melbourne,10630,675,11141,True
+29,West Melbourne,10592,690,10630,True
+29,West Melbourne,10714,705,10592,True
+29,West Melbourne,11174,720,10714,True
+29,West Melbourne,10916,735,11174,True
+29,West Melbourne,13216,750,10916,True
+29,West Melbourne,10937,765,13216,True
+29,West Melbourne,11246,780,10937,True
+29,West Melbourne,10646,795,11246,True
+29,West Melbourne,10357,810,10646,True
+29,West Melbourne,10449,825,10357,True
+29,West Melbourne,10522,840,10449,True
+29,West Melbourne,9707,855,10522,True
+29,West Melbourne,9534,870,9707,True
+29,West Melbourne,9177,885,9534,True
+29,West Melbourne,9277,900,9177,True
+29,West Melbourne,8890,915,9277,True
+29,West Melbourne,8724,930,8890,True
+29,West Melbourne,8461,945,8724,True
+29,West Melbourne,8794,960,8461,True
+29,West Melbourne,8166,975,8794,True
+29,West Melbourne,8272,990,8166,True
+29,West Melbourne,8217,1005,8272,True
+29,West Melbourne,8473,1020,8217,True
+29,West Melbourne,8214,1035,8473,True
+29,West Melbourne,8422,1050,8214,True
+29,West Melbourne,8784,1065,8422,True
+29,West Melbourne,9310,1080,8784,True
+29,West Melbourne,8802,1095,9310,True
+29,West Melbourne,32051,1110,8802,True
+29,West Melbourne,8255,1125,32051,True
+29,West Melbourne,7744,1140,8255,True
+29,West Melbourne,6924,1155,7744,True
+29,West Melbourne,7639,1170,6924,True
+29,West Melbourne,5763,1185,7639,True
+29,West Melbourne,5413,1200,5763,True
+29,West Melbourne,4842,1215,5413,True
+29,West Melbourne,12672,1230,4842,True
+29,West Melbourne,4203,1245,12672,True
+29,West Melbourne,3860,1260,4203,True
+29,West Melbourne,3608,1275,3860,True
+29,West Melbourne,3404,1290,3608,True
+29,West Melbourne,3110,1305,3404,True
+29,West Melbourne,2903,1320,3110,True
+29,West Melbourne,2418,1335,2903,True
+29,West Melbourne,2367,1350,2418,True
+29,West Melbourne,2090,1365,2367,True
+29,West Melbourne,2084,1380,2090,True
+29,West Melbourne,1373,1395,2084,True
+29,West Melbourne,1116,1410,1373,True
+29,West Melbourne,735,1425,1116,True
+31,World Trade Centre,124,0,,True
+31,World Trade Centre,8,15,124,True
+31,World Trade Centre,12,30,8,True
+31,World Trade Centre,10,45,12,True
+31,World Trade Centre,7,60,10,True
+31,World Trade Centre,5,75,7,True
+31,World Trade Centre,6,90,5,True
+31,World Trade Centre,8,105,6,True
+31,World Trade Centre,2,120,8,True
+31,World Trade Centre,1,135,2,True
+31,World Trade Centre,2,165,1,True
+31,World Trade Centre,2,210,2,True
+30,World Trade Centre,2,240,2,True
+31,World Trade Centre,2,255,2,True
+31,World Trade Centre,1,270,2,True
+31,World Trade Centre,4,285,1,True
+31,World Trade Centre,3,300,4,True
+31,World Trade Centre,6,315,3,True
+31,World Trade Centre,1,330,6,True
+31,World Trade Centre,14,345,1,True
+31,World Trade Centre,12,360,14,True
+31,World Trade Centre,17,375,12,True
+31,World Trade Centre,24,390,17,True
+31,World Trade Centre,28,405,24,True
+31,World Trade Centre,41,420,28,True
+31,World Trade Centre,32,435,41,True
+31,World Trade Centre,138,450,32,True
+31,World Trade Centre,38,465,138,True
+31,World Trade Centre,42,480,38,True
+31,World Trade Centre,43,495,42,True
+31,World Trade Centre,63,510,43,True
+31,World Trade Centre,60,525,63,True
+31,World Trade Centre,73,540,60,True
+31,World Trade Centre,89,555,73,True
+31,World Trade Centre,87,570,89,True
+31,World Trade Centre,86,585,87,True
+31,World Trade Centre,134,600,86,True
+31,World Trade Centre,144,615,134,True
+31,World Trade Centre,114,630,144,True
+31,World Trade Centre,120,645,114,True
+31,World Trade Centre,130,660,120,True
+31,World Trade Centre,142,675,130,True
+31,World Trade Centre,136,690,142,True
+31,World Trade Centre,176,705,136,True
+31,World Trade Centre,203,720,176,True
+31,World Trade Centre,163,735,203,True
+31,World Trade Centre,183,750,163,True
+31,World Trade Centre,186,765,183,True
+31,World Trade Centre,149,780,186,True
+31,World Trade Centre,160,795,149,True
+31,World Trade Centre,142,810,160,True
+31,World Trade Centre,140,825,142,True
+31,World Trade Centre,135,840,140,True
+31,World Trade Centre,138,855,135,True
+31,World Trade Centre,123,870,138,True
+31,World Trade Centre,110,885,123,True
+31,World Trade Centre,121,900,110,True
+31,World Trade Centre,90,915,121,True
+31,World Trade Centre,85,930,90,True
+31,World Trade Centre,91,945,85,True
+31,World Trade Centre,106,960,91,True
+31,World Trade Centre,127,975,106,True
+31,World Trade Centre,96,990,127,True
+31,World Trade Centre,101,1005,96,True
+31,World Trade Centre,93,1020,101,True
+31,World Trade Centre,96,1035,93,True
+31,World Trade Centre,152,1050,96,True
+31,World Trade Centre,179,1065,152,True
+31,World Trade Centre,107,1080,179,True
+31,World Trade Centre,98,1095,107,True
+31,World Trade Centre,473,1110,98,True
+31,World Trade Centre,83,1125,473,True
+31,World Trade Centre,67,1140,83,True
+31,World Trade Centre,64,1155,67,True
+31,World Trade Centre,77,1170,64,True
+31,World Trade Centre,65,1185,77,True
+31,World Trade Centre,63,1200,65,True
+31,World Trade Centre,36,1215,63,True
+31,World Trade Centre,50,1230,36,True
+31,World Trade Centre,29,1245,50,True
+31,World Trade Centre,31,1260,29,True
+31,World Trade Centre,22,1275,31,True
+31,World Trade Centre,19,1290,22,True
+31,World Trade Centre,24,1305,19,True
+31,World Trade Centre,16,1320,24,True
+31,World Trade Centre,10,1335,16,True
+31,World Trade Centre,14,1350,10,True
+31,World Trade Centre,17,1365,14,True
+31,World Trade Centre,15,1380,17,True
+31,World Trade Centre,13,1395,15,True
+31,World Trade Centre,8,1410,13,True

@@ -1,0 +1,68 @@
+{
+ "name": "melbourne parking",
+ "children": [
+  {
+   "name": "melbourne central",
+   "children": [
+    {
+     "name": "onstreet",
+     "children": [
+      {
+          "name": "sensor",
+          "size": 17010
+      },
+      {
+          "name": "no sensor",
+          "size": 5842}
+    ]
+    },
+    {
+     "name": "offstreet",
+     "size": 1170425
+    }
+   ]
+  },
+  {
+   "name": "melbourne central",
+   "children": [
+    {
+     "name": "onstreet",
+     "children": [
+      {
+          "name": "sensor",
+          "size": 17010
+      },
+      {
+          "name": "no sensor",
+          "size": 5842}
+    ]
+    },
+    {
+     "name": "offstreet",
+     "size": 1170425
+    }
+   ]
+  },
+  {
+   "name": "melbourne central",
+   "children": [
+    {
+     "name": "onstreet",
+     "children": [
+      {
+          "name": "sensor",
+          "size": 17010
+      },
+      {
+          "name": "no sensor",
+          "size": 5842}
+    ]
+    },
+    {
+     "name": "offstreet",
+     "size": 1170425
+    }
+   ]
+  }
+ ]
+}
