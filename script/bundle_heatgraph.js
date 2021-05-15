@@ -150,22 +150,22 @@
     document.addEventListener('DOMContentLoaded', () => {
       function generateDayData (day) {
         const times = ["01am", "02am", "03am", "04am", "05am", "06am", "07am", "08am", "09am", "10am", "11am", "12am", "01pm", "02pm", "03pm", "04pm", "05pm", "06pm", "07pm", "08pm", "09pm", "10pm", "11pm", "12pm"]
-        return times.map(hour => { return { day, value: Math.random()*100, hour }})
+        return times.map(hour => { return { day, value: Math.round(Math.random()*100,2), hour }})
       }
 
-      setInterval(() => {
-        renderChart(document.querySelector('#wrapper'), [
-          ...generateDayData('Monday'),
-          ...generateDayData('Tuesday'),
-          ...generateDayData('Wednesday'),
-          ...generateDayData('Thursday'),
-          ...generateDayData('Friday'),
-          ...generateDayData('Saturday'),
-          ...generateDayData('Sunday'),
-        ])
-      }, 5000)
+      // setInterval(() => {
+      //   renderChart(document.querySelector('#wrapper'), [
+      //     ...generateDayData('Monday'),
+      //     ...generateDayData('Tuesday'),
+      //     ...generateDayData('Wednesday'),
+      //     ...generateDayData('Thursday'),
+      //     ...generateDayData('Friday'),
+      //     ...generateDayData('Saturday'),
+      //     ...generateDayData('Sunday'),
+      //   ])
+      // }, 5000)
 
-      renderChart(document.querySelector('#wrapper'), [
+      var heatdata = [
         ...generateDayData('Monday'),
         ...generateDayData('Tuesday'),
         ...generateDayData('Wednesday'),
@@ -173,7 +173,11 @@
         ...generateDayData('Friday'),
         ...generateDayData('Saturday'),
         ...generateDayData('Sunday'),
-      ])
+    ];
+        console.log(heatdata);
+
+      renderChart(document.querySelector('#heatmap_1'), heatdata)
+      renderChart(document.querySelector('#heatmap_2'), heatdata)
     })
 
 

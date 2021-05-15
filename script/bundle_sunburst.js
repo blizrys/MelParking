@@ -27,7 +27,7 @@
 
     const {require} = new observablehq.Library;
 
-    d3.json('../data/data1.json').then(data => {
+    d3.json('../data/data_sunburst.json').then(data => {
     // require()('@observablehq/flare').then(data => {
         // console.log(data);
         const root = partition(data);
