@@ -1,0 +1,1153 @@
+name,value,year,maxValue
+Carlton North,16.0,0,76
+Carlton South,445.0,0,1054
+Docklands,65.0,0,366
+East Melbourne,87.0,0,391
+Kensington/Flemington,136.0,0,506
+Melbourne City,68.0,0,276
+North Melbourne,184.0,0,798
+Parkville,144.0,0,601
+Port Melbourne,81.0,0,328
+South Yarra,52.0,0,219
+Southbank,17.0,0,66
+West Melbourne,79.0,0,319
+Carlton North,16.0,15,76
+Carlton South,429.0,15,1054
+Docklands,62.0,15,366
+East Melbourne,85.0,15,391
+Kensington/Flemington,133.0,15,506
+Melbourne City,66.0,15,276
+North Melbourne,178.0,15,798
+Parkville,139.0,15,601
+Port Melbourne,79.0,15,328
+South Yarra,50.0,15,219
+Southbank,17.0,15,66
+West Melbourne,77.0,15,319
+Carlton North,15.0,30,76
+Carlton South,414.0,30,1054
+Docklands,60.0,30,366
+East Melbourne,83.0,30,391
+Kensington/Flemington,129.0,30,506
+Melbourne City,65.0,30,276
+North Melbourne,173.0,30,798
+Parkville,135.0,30,601
+Port Melbourne,76.0,30,328
+South Yarra,49.0,30,219
+Southbank,16.0,30,66
+West Melbourne,74.0,30,319
+Carlton North,15.0,45,76
+Carlton South,399.0,45,1054
+Docklands,57.0,45,366
+East Melbourne,81.0,45,391
+Kensington/Flemington,126.0,45,506
+Melbourne City,63.0,45,276
+North Melbourne,168.0,45,798
+Parkville,131.0,45,601
+Port Melbourne,75.0,45,328
+South Yarra,47.0,45,219
+Southbank,16.0,45,66
+West Melbourne,73.0,45,319
+Carlton North,15.0,60,76
+Carlton South,385.0,60,1054
+Docklands,55.0,60,366
+East Melbourne,79.0,60,391
+Kensington/Flemington,125.0,60,506
+Melbourne City,62.0,60,276
+North Melbourne,164.0,60,798
+Parkville,128.0,60,601
+Port Melbourne,73.0,60,328
+South Yarra,46.0,60,219
+Southbank,16.0,60,66
+West Melbourne,71.0,60,319
+Carlton North,14.0,75,76
+Carlton South,370.0,75,1054
+Docklands,52.0,75,366
+East Melbourne,78.0,75,391
+Kensington/Flemington,122.0,75,506
+Melbourne City,60.0,75,276
+North Melbourne,160.0,75,798
+Parkville,124.0,75,601
+Port Melbourne,71.0,75,328
+South Yarra,45.0,75,219
+Southbank,15.0,75,66
+West Melbourne,69.0,75,319
+Carlton North,14.0,90,76
+Carlton South,356.0,90,1054
+Docklands,51.0,90,366
+East Melbourne,76.0,90,391
+Kensington/Flemington,120.0,90,506
+Melbourne City,58.0,90,276
+North Melbourne,157.0,90,798
+Parkville,121.0,90,601
+Port Melbourne,70.0,90,328
+South Yarra,44.0,90,219
+Southbank,15.0,90,66
+West Melbourne,68.0,90,319
+Carlton North,13.0,105,76
+Carlton South,344.0,105,1054
+Docklands,49.0,105,366
+East Melbourne,75.0,105,391
+Kensington/Flemington,118.0,105,506
+Melbourne City,57.0,105,276
+North Melbourne,154.0,105,798
+Parkville,119.0,105,601
+Port Melbourne,69.0,105,328
+South Yarra,43.0,105,219
+Southbank,14.0,105,66
+West Melbourne,66.0,105,319
+Carlton North,13.0,120,76
+Carlton South,333.0,120,1054
+Docklands,48.0,120,366
+East Melbourne,74.0,120,391
+Kensington/Flemington,116.0,120,506
+Melbourne City,55.0,120,276
+North Melbourne,151.0,120,798
+Parkville,117.0,120,601
+Port Melbourne,68.0,120,328
+South Yarra,43.0,120,219
+Southbank,14.0,120,66
+West Melbourne,65.0,120,319
+Carlton North,13.0,135,76
+Carlton South,318.0,135,1054
+Docklands,46.0,135,366
+East Melbourne,73.0,135,391
+Kensington/Flemington,114.0,135,506
+Melbourne City,54.0,135,276
+North Melbourne,148.0,135,798
+Parkville,115.0,135,601
+Port Melbourne,67.0,135,328
+South Yarra,42.0,135,219
+Southbank,14.0,135,66
+West Melbourne,63.0,135,319
+Carlton North,13.0,150,76
+Carlton South,306.0,150,1054
+Docklands,45.0,150,366
+East Melbourne,71.0,150,391
+Kensington/Flemington,113.0,150,506
+Melbourne City,53.0,150,276
+North Melbourne,146.0,150,798
+Parkville,113.0,150,601
+Port Melbourne,66.0,150,328
+South Yarra,41.0,150,219
+Southbank,13.0,150,66
+West Melbourne,62.0,150,319
+Carlton North,13.0,165,76
+Carlton South,295.0,165,1054
+Docklands,45.0,165,366
+East Melbourne,71.0,165,391
+Kensington/Flemington,112.0,165,506
+Melbourne City,52.0,165,276
+North Melbourne,144.0,165,798
+Parkville,112.0,165,601
+Port Melbourne,65.0,165,328
+South Yarra,41.0,165,219
+Southbank,13.0,165,66
+West Melbourne,61.0,165,319
+Carlton North,12.0,180,76
+Carlton South,285.0,180,1054
+Docklands,45.0,180,366
+East Melbourne,70.0,180,391
+Kensington/Flemington,110.0,180,506
+Melbourne City,51.0,180,276
+North Melbourne,142.0,180,798
+Parkville,111.0,180,601
+Port Melbourne,64.0,180,328
+South Yarra,40.0,180,219
+Southbank,13.0,180,66
+West Melbourne,60.0,180,319
+Carlton North,12.0,195,76
+Carlton South,271.0,195,1054
+Docklands,43.0,195,366
+East Melbourne,69.0,195,391
+Kensington/Flemington,109.0,195,506
+Melbourne City,50.0,195,276
+North Melbourne,140.0,195,798
+Parkville,109.0,195,601
+Port Melbourne,63.0,195,328
+South Yarra,40.0,195,219
+Southbank,13.0,195,66
+West Melbourne,59.0,195,319
+Carlton North,12.0,210,76
+Carlton South,261.0,210,1054
+Docklands,41.0,210,366
+East Melbourne,68.0,210,391
+Kensington/Flemington,108.0,210,506
+Melbourne City,49.0,210,276
+North Melbourne,139.0,210,798
+Parkville,108.0,210,601
+Port Melbourne,63.0,210,328
+South Yarra,39.0,210,219
+Southbank,13.0,210,66
+West Melbourne,59.0,210,319
+Carlton North,12.0,225,76
+Carlton South,254.0,225,1054
+Docklands,40.0,225,366
+East Melbourne,67.0,225,391
+Kensington/Flemington,108.0,225,506
+Melbourne City,49.0,225,276
+North Melbourne,138.0,225,798
+Parkville,107.0,225,601
+Port Melbourne,62.0,225,328
+South Yarra,39.0,225,219
+Southbank,13.0,225,66
+West Melbourne,58.0,225,319
+Carlton North,12.0,240,76
+Carlton South,247.0,240,1054
+Docklands,39.0,240,366
+East Melbourne,67.0,240,391
+Kensington/Flemington,107.0,240,506
+Melbourne City,48.0,240,276
+North Melbourne,137.0,240,798
+Parkville,106.0,240,601
+Port Melbourne,62.0,240,328
+South Yarra,39.0,240,219
+Southbank,13.0,240,66
+West Melbourne,58.0,240,319
+Carlton North,12.0,255,76
+Carlton South,238.0,255,1054
+Docklands,39.0,255,366
+East Melbourne,67.0,255,391
+Kensington/Flemington,107.0,255,506
+Melbourne City,48.0,255,276
+North Melbourne,137.0,255,798
+Parkville,106.0,255,601
+Port Melbourne,62.0,255,328
+South Yarra,39.0,255,219
+Southbank,13.0,255,66
+West Melbourne,58.0,255,319
+Carlton North,12.0,270,76
+Carlton South,233.0,270,1054
+Docklands,38.0,270,366
+East Melbourne,67.0,270,391
+Kensington/Flemington,107.0,270,506
+Melbourne City,47.0,270,276
+North Melbourne,137.0,270,798
+Parkville,106.0,270,601
+Port Melbourne,62.0,270,328
+South Yarra,38.0,270,219
+Southbank,13.0,270,66
+West Melbourne,58.0,270,319
+Carlton North,12.0,285,76
+Carlton South,230.0,285,1054
+Docklands,38.0,285,366
+East Melbourne,66.0,285,391
+Kensington/Flemington,107.0,285,506
+Melbourne City,47.0,285,276
+North Melbourne,136.0,285,798
+Parkville,106.0,285,601
+Port Melbourne,62.0,285,328
+South Yarra,38.0,285,219
+Southbank,12.0,285,66
+West Melbourne,58.0,285,319
+Carlton North,12.0,300,76
+Carlton South,230.0,300,1054
+Docklands,38.0,300,366
+East Melbourne,66.0,300,391
+Kensington/Flemington,108.0,300,506
+Melbourne City,47.0,300,276
+North Melbourne,138.0,300,798
+Parkville,107.0,300,601
+Port Melbourne,63.0,300,328
+South Yarra,39.0,300,219
+Southbank,13.0,300,66
+West Melbourne,59.0,300,319
+Carlton North,12.0,315,76
+Carlton South,229.0,315,1054
+Docklands,38.0,315,366
+East Melbourne,67.0,315,391
+Kensington/Flemington,109.0,315,506
+Melbourne City,48.0,315,276
+North Melbourne,140.0,315,798
+Parkville,109.0,315,601
+Port Melbourne,64.0,315,328
+South Yarra,39.0,315,219
+Southbank,13.0,315,66
+West Melbourne,60.0,315,319
+Carlton North,13.0,330,76
+Carlton South,235.0,330,1054
+Docklands,39.0,330,366
+East Melbourne,67.0,330,391
+Kensington/Flemington,112.0,330,506
+Melbourne City,50.0,330,276
+North Melbourne,145.0,330,798
+Parkville,112.0,330,601
+Port Melbourne,66.0,330,328
+South Yarra,39.0,330,219
+Southbank,13.0,330,66
+West Melbourne,62.0,330,319
+Carlton North,13.0,345,76
+Carlton South,248.0,345,1054
+Docklands,42.0,345,366
+East Melbourne,69.0,345,391
+Kensington/Flemington,116.0,345,506
+Melbourne City,53.0,345,276
+North Melbourne,152.0,345,798
+Parkville,116.0,345,601
+Port Melbourne,68.0,345,328
+South Yarra,41.0,345,219
+Southbank,13.0,345,66
+West Melbourne,64.0,345,319
+Carlton North,14.0,360,76
+Carlton South,269.0,360,1054
+Docklands,45.0,360,366
+East Melbourne,74.0,360,391
+Kensington/Flemington,124.0,360,506
+Melbourne City,56.0,360,276
+North Melbourne,161.0,360,798
+Parkville,122.0,360,601
+Port Melbourne,71.0,360,328
+South Yarra,44.0,360,219
+Southbank,14.0,360,66
+West Melbourne,68.0,360,319
+Carlton North,14.0,375,76
+Carlton South,278.0,375,1054
+Docklands,47.0,375,366
+East Melbourne,77.0,375,391
+Kensington/Flemington,130.0,375,506
+Melbourne City,58.0,375,276
+North Melbourne,169.0,375,798
+Parkville,127.0,375,601
+Port Melbourne,73.0,375,328
+South Yarra,45.0,375,219
+Southbank,14.0,375,66
+West Melbourne,71.0,375,319
+Carlton North,15.0,390,76
+Carlton South,292.0,390,1054
+Docklands,50.0,390,366
+East Melbourne,82.0,390,391
+Kensington/Flemington,139.0,390,506
+Melbourne City,61.0,390,276
+North Melbourne,180.0,390,798
+Parkville,134.0,390,601
+Port Melbourne,78.0,390,328
+South Yarra,48.0,390,219
+Southbank,14.0,390,66
+West Melbourne,74.0,390,319
+Carlton North,16.0,405,76
+Carlton South,310.0,405,1054
+Docklands,53.0,405,366
+East Melbourne,87.0,405,391
+Kensington/Flemington,147.0,405,506
+Melbourne City,65.0,405,276
+North Melbourne,192.0,405,798
+Parkville,143.0,405,601
+Port Melbourne,83.0,405,328
+South Yarra,51.0,405,219
+Southbank,15.0,405,66
+West Melbourne,79.0,405,319
+Carlton North,18.0,420,76
+Carlton South,333.0,420,1054
+Docklands,56.0,420,366
+East Melbourne,93.0,420,391
+Kensington/Flemington,157.0,420,506
+Melbourne City,70.0,420,276
+North Melbourne,208.0,420,798
+Parkville,157.0,420,601
+Port Melbourne,90.0,420,328
+South Yarra,55.0,420,219
+Southbank,16.0,420,66
+West Melbourne,84.0,420,319
+Carlton North,19.0,435,76
+Carlton South,338.0,435,1054
+Docklands,56.0,435,366
+East Melbourne,98.0,435,391
+Kensington/Flemington,161.0,435,506
+Melbourne City,72.0,435,276
+North Melbourne,216.0,435,798
+Parkville,164.0,435,601
+Port Melbourne,93.0,435,328
+South Yarra,58.0,435,219
+Southbank,17.0,435,66
+West Melbourne,87.0,435,319
+Carlton North,20.0,450,76
+Carlton South,334.0,450,1054
+Docklands,59.0,450,366
+East Melbourne,101.0,450,391
+Kensington/Flemington,163.0,450,506
+Melbourne City,73.0,450,276
+North Melbourne,221.0,450,798
+Parkville,168.0,450,601
+Port Melbourne,94.0,450,328
+South Yarra,59.0,450,219
+Southbank,17.0,450,66
+West Melbourne,89.0,450,319
+Carlton North,22.0,465,76
+Carlton South,333.0,465,1054
+Docklands,60.0,465,366
+East Melbourne,105.0,465,391
+Kensington/Flemington,164.0,465,506
+Melbourne City,73.0,465,276
+North Melbourne,224.0,465,798
+Parkville,172.0,465,601
+Port Melbourne,96.0,465,328
+South Yarra,61.0,465,219
+Southbank,18.0,465,66
+West Melbourne,90.0,465,319
+Carlton North,23.0,480,76
+Carlton South,343.0,480,1054
+Docklands,63.0,480,366
+East Melbourne,110.0,480,391
+Kensington/Flemington,171.0,480,506
+Melbourne City,75.0,480,276
+North Melbourne,235.0,480,798
+Parkville,180.0,480,601
+Port Melbourne,99.0,480,328
+South Yarra,64.0,480,219
+Southbank,19.0,480,66
+West Melbourne,94.0,480,319
+Carlton North,24.0,495,76
+Carlton South,348.0,495,1054
+Docklands,64.0,495,366
+East Melbourne,114.0,495,391
+Kensington/Flemington,175.0,495,506
+Melbourne City,76.0,495,276
+North Melbourne,244.0,495,798
+Parkville,186.0,495,601
+Port Melbourne,103.0,495,328
+South Yarra,66.0,495,219
+Southbank,19.0,495,66
+West Melbourne,97.0,495,319
+Carlton North,25.0,510,76
+Carlton South,353.0,510,1054
+Docklands,67.0,510,366
+East Melbourne,120.0,510,391
+Kensington/Flemington,182.0,510,506
+Melbourne City,78.0,510,276
+North Melbourne,255.0,510,798
+Parkville,194.0,510,601
+Port Melbourne,107.0,510,328
+South Yarra,70.0,510,219
+Southbank,20.0,510,66
+West Melbourne,102.0,510,319
+Carlton North,26.0,525,76
+Carlton South,365.0,525,1054
+Docklands,70.0,525,366
+East Melbourne,128.0,525,391
+Kensington/Flemington,188.0,525,506
+Melbourne City,81.0,525,276
+North Melbourne,268.0,525,798
+Parkville,203.0,525,601
+Port Melbourne,112.0,525,328
+South Yarra,74.0,525,219
+Southbank,21.0,525,66
+West Melbourne,106.0,525,319
+Carlton North,27.0,540,76
+Carlton South,390.0,540,1054
+Docklands,75.0,540,366
+East Melbourne,138.0,540,391
+Kensington/Flemington,199.0,540,506
+Melbourne City,86.0,540,276
+North Melbourne,287.0,540,798
+Parkville,216.0,540,601
+Port Melbourne,120.0,540,328
+South Yarra,79.0,540,219
+Southbank,23.0,540,66
+West Melbourne,114.0,540,319
+Carlton North,29.0,555,76
+Carlton South,420.0,555,1054
+Docklands,78.0,555,366
+East Melbourne,149.0,555,391
+Kensington/Flemington,210.0,555,506
+Melbourne City,91.0,555,276
+North Melbourne,306.0,555,798
+Parkville,230.0,555,601
+Port Melbourne,130.0,555,328
+South Yarra,85.0,555,219
+Southbank,24.0,555,66
+West Melbourne,123.0,555,319
+Carlton North,31.0,570,76
+Carlton South,453.0,570,1054
+Docklands,84.0,570,366
+East Melbourne,158.0,570,391
+Kensington/Flemington,220.0,570,506
+Melbourne City,96.0,570,276
+North Melbourne,323.0,570,798
+Parkville,243.0,570,601
+Port Melbourne,139.0,570,328
+South Yarra,90.0,570,219
+Southbank,25.0,570,66
+West Melbourne,132.0,570,319
+Carlton North,33.0,585,76
+Carlton South,486.0,585,1054
+Docklands,91.0,585,366
+East Melbourne,170.0,585,391
+Kensington/Flemington,234.0,585,506
+Melbourne City,101.0,585,276
+North Melbourne,341.0,585,798
+Parkville,257.0,585,601
+Port Melbourne,147.0,585,328
+South Yarra,95.0,585,219
+Southbank,26.0,585,66
+West Melbourne,140.0,585,319
+Carlton North,35.0,600,76
+Carlton South,530.0,600,1054
+Docklands,98.0,600,366
+East Melbourne,183.0,600,391
+Kensington/Flemington,247.0,600,506
+Melbourne City,108.0,600,276
+North Melbourne,361.0,600,798
+Parkville,274.0,600,601
+Port Melbourne,157.0,600,328
+South Yarra,102.0,600,219
+Southbank,28.0,600,66
+West Melbourne,150.0,600,319
+Carlton North,36.0,615,76
+Carlton South,567.0,615,1054
+Docklands,103.0,615,366
+East Melbourne,193.0,615,391
+Kensington/Flemington,257.0,615,506
+Melbourne City,112.0,615,276
+North Melbourne,374.0,615,798
+Parkville,287.0,615,601
+Port Melbourne,164.0,615,328
+South Yarra,106.0,615,219
+Southbank,30.0,615,66
+West Melbourne,158.0,615,319
+Carlton North,38.0,630,76
+Carlton South,593.0,630,1054
+Docklands,106.0,630,366
+East Melbourne,200.0,630,391
+Kensington/Flemington,266.0,630,506
+Melbourne City,114.0,630,276
+North Melbourne,387.0,630,798
+Parkville,297.0,630,601
+Port Melbourne,170.0,630,328
+South Yarra,109.0,630,219
+Southbank,31.0,630,66
+West Melbourne,162.0,630,319
+Carlton North,39.0,645,76
+Carlton South,611.0,645,1054
+Docklands,109.0,645,366
+East Melbourne,206.0,645,391
+Kensington/Flemington,272.0,645,506
+Melbourne City,117.0,645,276
+North Melbourne,396.0,645,798
+Parkville,304.0,645,601
+Port Melbourne,174.0,645,328
+South Yarra,112.0,645,219
+Southbank,32.0,645,66
+West Melbourne,167.0,645,319
+Carlton North,40.0,660,76
+Carlton South,631.0,660,1054
+Docklands,112.0,660,366
+East Melbourne,211.0,660,391
+Kensington/Flemington,278.0,660,506
+Melbourne City,120.0,660,276
+North Melbourne,405.0,660,798
+Parkville,313.0,660,601
+Port Melbourne,179.0,660,328
+South Yarra,115.0,660,219
+Southbank,33.0,660,66
+West Melbourne,173.0,660,319
+Carlton North,41.0,675,76
+Carlton South,639.0,675,1054
+Docklands,113.0,675,366
+East Melbourne,214.0,675,391
+Kensington/Flemington,282.0,675,506
+Melbourne City,122.0,675,276
+North Melbourne,411.0,675,798
+Parkville,317.0,675,601
+Port Melbourne,182.0,675,328
+South Yarra,117.0,675,219
+Southbank,33.0,675,66
+West Melbourne,175.0,675,319
+Carlton North,41.0,690,76
+Carlton South,646.0,690,1054
+Docklands,113.0,690,366
+East Melbourne,216.0,690,391
+Kensington/Flemington,284.0,690,506
+Melbourne City,123.0,690,276
+North Melbourne,415.0,690,798
+Parkville,319.0,690,601
+Port Melbourne,183.0,690,328
+South Yarra,118.0,690,219
+Southbank,34.0,690,66
+West Melbourne,177.0,690,319
+Carlton North,42.0,705,76
+Carlton South,648.0,705,1054
+Docklands,114.0,705,366
+East Melbourne,217.0,705,391
+Kensington/Flemington,285.0,705,506
+Melbourne City,123.0,705,276
+North Melbourne,418.0,705,798
+Parkville,320.0,705,601
+Port Melbourne,185.0,705,328
+South Yarra,119.0,705,219
+Southbank,34.0,705,66
+West Melbourne,178.0,705,319
+Carlton North,42.0,720,76
+Carlton South,652.0,720,1054
+Docklands,115.0,720,366
+East Melbourne,220.0,720,391
+Kensington/Flemington,287.0,720,506
+Melbourne City,124.0,720,276
+North Melbourne,420.0,720,798
+Parkville,323.0,720,601
+Port Melbourne,186.0,720,328
+South Yarra,120.0,720,219
+Southbank,34.0,720,66
+West Melbourne,179.0,720,319
+Carlton North,42.0,735,76
+Carlton South,652.0,735,1054
+Docklands,116.0,735,366
+East Melbourne,220.0,735,391
+Kensington/Flemington,287.0,735,506
+Melbourne City,124.0,735,276
+North Melbourne,421.0,735,798
+Parkville,323.0,735,601
+Port Melbourne,186.0,735,328
+South Yarra,120.0,735,219
+Southbank,34.0,735,66
+West Melbourne,178.0,735,319
+Carlton North,42.0,750,76
+Carlton South,654.0,750,1054
+Docklands,117.0,750,366
+East Melbourne,221.0,750,391
+Kensington/Flemington,288.0,750,506
+Melbourne City,124.0,750,276
+North Melbourne,423.0,750,798
+Parkville,323.0,750,601
+Port Melbourne,186.0,750,328
+South Yarra,120.0,750,219
+Southbank,34.0,750,66
+West Melbourne,179.0,750,319
+Carlton North,42.0,765,76
+Carlton South,656.0,765,1054
+Docklands,118.0,765,366
+East Melbourne,221.0,765,391
+Kensington/Flemington,288.0,765,506
+Melbourne City,124.0,765,276
+North Melbourne,421.0,765,798
+Parkville,324.0,765,601
+Port Melbourne,186.0,765,328
+South Yarra,120.0,765,219
+Southbank,34.0,765,66
+West Melbourne,179.0,765,319
+Carlton North,43.0,780,76
+Carlton South,660.0,780,1054
+Docklands,118.0,780,366
+East Melbourne,222.0,780,391
+Kensington/Flemington,289.0,780,506
+Melbourne City,125.0,780,276
+North Melbourne,423.0,780,798
+Parkville,325.0,780,601
+Port Melbourne,187.0,780,328
+South Yarra,121.0,780,219
+Southbank,34.0,780,66
+West Melbourne,180.0,780,319
+Carlton North,42.0,795,76
+Carlton South,658.0,795,1054
+Docklands,118.0,795,366
+East Melbourne,222.0,795,391
+Kensington/Flemington,287.0,795,506
+Melbourne City,125.0,795,276
+North Melbourne,422.0,795,798
+Parkville,324.0,795,601
+Port Melbourne,186.0,795,328
+South Yarra,120.0,795,219
+Southbank,34.0,795,66
+West Melbourne,179.0,795,319
+Carlton North,43.0,810,76
+Carlton South,656.0,810,1054
+Docklands,118.0,810,366
+East Melbourne,221.0,810,391
+Kensington/Flemington,286.0,810,506
+Melbourne City,124.0,810,276
+North Melbourne,421.0,810,798
+Parkville,323.0,810,601
+Port Melbourne,187.0,810,328
+South Yarra,120.0,810,219
+Southbank,34.0,810,66
+West Melbourne,178.0,810,319
+Carlton North,42.0,825,76
+Carlton South,655.0,825,1054
+Docklands,117.0,825,366
+East Melbourne,220.0,825,391
+Kensington/Flemington,284.0,825,506
+Melbourne City,123.0,825,276
+North Melbourne,419.0,825,798
+Parkville,322.0,825,601
+Port Melbourne,185.0,825,328
+South Yarra,119.0,825,219
+Southbank,34.0,825,66
+West Melbourne,177.0,825,319
+Carlton North,42.0,840,76
+Carlton South,653.0,840,1054
+Docklands,115.0,840,366
+East Melbourne,220.0,840,391
+Kensington/Flemington,283.0,840,506
+Melbourne City,123.0,840,276
+North Melbourne,418.0,840,798
+Parkville,320.0,840,601
+Port Melbourne,184.0,840,328
+South Yarra,119.0,840,219
+Southbank,34.0,840,66
+West Melbourne,177.0,840,319
+Carlton North,41.0,855,76
+Carlton South,643.0,855,1054
+Docklands,114.0,855,366
+East Melbourne,215.0,855,391
+Kensington/Flemington,278.0,855,506
+Melbourne City,121.0,855,276
+North Melbourne,410.0,855,798
+Parkville,313.0,855,601
+Port Melbourne,181.0,855,328
+South Yarra,116.0,855,219
+Southbank,33.0,855,66
+West Melbourne,173.0,855,319
+Carlton North,40.0,870,76
+Carlton South,633.0,870,1054
+Docklands,111.0,870,366
+East Melbourne,212.0,870,391
+Kensington/Flemington,273.0,870,506
+Melbourne City,118.0,870,276
+North Melbourne,402.0,870,798
+Parkville,307.0,870,601
+Port Melbourne,177.0,870,328
+South Yarra,114.0,870,219
+Southbank,32.0,870,66
+West Melbourne,170.0,870,319
+Carlton North,39.0,885,76
+Carlton South,619.0,885,1054
+Docklands,108.0,885,366
+East Melbourne,206.0,885,391
+Kensington/Flemington,266.0,885,506
+Melbourne City,116.0,885,276
+North Melbourne,392.0,885,798
+Parkville,300.0,885,601
+Port Melbourne,172.0,885,328
+South Yarra,111.0,885,219
+Southbank,31.0,885,66
+West Melbourne,166.0,885,319
+Carlton North,38.0,900,76
+Carlton South,606.0,900,1054
+Docklands,105.0,900,366
+East Melbourne,203.0,900,391
+Kensington/Flemington,261.0,900,506
+Melbourne City,114.0,900,276
+North Melbourne,383.0,900,798
+Parkville,293.0,900,601
+Port Melbourne,168.0,900,328
+South Yarra,109.0,900,219
+Southbank,30.0,900,66
+West Melbourne,162.0,900,319
+Carlton North,37.0,915,76
+Carlton South,583.0,915,1054
+Docklands,102.0,915,366
+East Melbourne,195.0,915,391
+Kensington/Flemington,252.0,915,506
+Melbourne City,110.0,915,276
+North Melbourne,369.0,915,798
+Parkville,282.0,915,601
+Port Melbourne,163.0,915,328
+South Yarra,105.0,915,219
+Southbank,29.0,915,66
+West Melbourne,157.0,915,319
+Carlton North,35.0,930,76
+Carlton South,565.0,930,1054
+Docklands,97.0,930,366
+East Melbourne,189.0,930,391
+Kensington/Flemington,243.0,930,506
+Melbourne City,106.0,930,276
+North Melbourne,357.0,930,798
+Parkville,273.0,930,601
+Port Melbourne,156.0,930,328
+South Yarra,102.0,930,219
+Southbank,29.0,930,66
+West Melbourne,152.0,930,319
+Carlton North,34.0,945,76
+Carlton South,546.0,945,1054
+Docklands,94.0,945,366
+East Melbourne,182.0,945,391
+Kensington/Flemington,235.0,945,506
+Melbourne City,103.0,945,276
+North Melbourne,344.0,945,798
+Parkville,264.0,945,601
+Port Melbourne,149.0,945,328
+South Yarra,99.0,945,219
+Southbank,28.0,945,66
+West Melbourne,146.0,945,319
+Carlton North,34.0,960,76
+Carlton South,523.0,960,1054
+Docklands,91.0,960,366
+East Melbourne,178.0,960,391
+Kensington/Flemington,230.0,960,506
+Melbourne City,100.0,960,276
+North Melbourne,334.0,960,798
+Parkville,257.0,960,601
+Port Melbourne,144.0,960,328
+South Yarra,97.0,960,219
+Southbank,26.0,960,66
+West Melbourne,143.0,960,319
+Carlton North,32.0,975,76
+Carlton South,494.0,975,1054
+Docklands,85.0,975,366
+East Melbourne,171.0,975,391
+Kensington/Flemington,222.0,975,506
+Melbourne City,97.0,975,276
+North Melbourne,320.0,975,798
+Parkville,246.0,975,601
+Port Melbourne,139.0,975,328
+South Yarra,93.0,975,219
+Southbank,25.0,975,66
+West Melbourne,137.0,975,319
+Carlton North,31.0,990,76
+Carlton South,480.0,990,1054
+Docklands,83.0,990,366
+East Melbourne,166.0,990,391
+Kensington/Flemington,217.0,990,506
+Melbourne City,95.0,990,276
+North Melbourne,312.0,990,798
+Parkville,241.0,990,601
+Port Melbourne,135.0,990,328
+South Yarra,91.0,990,219
+Southbank,24.0,990,66
+West Melbourne,133.0,990,319
+Carlton North,30.0,1005,76
+Carlton South,468.0,1005,1054
+Docklands,81.0,1005,366
+East Melbourne,161.0,1005,391
+Kensington/Flemington,212.0,1005,506
+Melbourne City,94.0,1005,276
+North Melbourne,304.0,1005,798
+Parkville,235.0,1005,601
+Port Melbourne,131.0,1005,328
+South Yarra,89.0,1005,219
+Southbank,24.0,1005,66
+West Melbourne,130.0,1005,319
+Carlton North,30.0,1020,76
+Carlton South,461.0,1020,1054
+Docklands,80.0,1020,366
+East Melbourne,160.0,1020,391
+Kensington/Flemington,211.0,1020,506
+Melbourne City,93.0,1020,276
+North Melbourne,304.0,1020,798
+Parkville,234.0,1020,601
+Port Melbourne,130.0,1020,328
+South Yarra,89.0,1020,219
+Southbank,24.0,1020,66
+West Melbourne,129.0,1020,319
+Carlton North,30.0,1035,76
+Carlton South,442.0,1035,1054
+Docklands,78.0,1035,366
+East Melbourne,156.0,1035,391
+Kensington/Flemington,207.0,1035,506
+Melbourne City,91.0,1035,276
+North Melbourne,299.0,1035,798
+Parkville,230.0,1035,601
+Port Melbourne,128.0,1035,328
+South Yarra,87.0,1035,219
+Southbank,23.0,1035,66
+West Melbourne,126.0,1035,319
+Carlton North,30.0,1050,76
+Carlton South,440.0,1050,1054
+Docklands,78.0,1050,366
+East Melbourne,157.0,1050,391
+Kensington/Flemington,209.0,1050,506
+Melbourne City,92.0,1050,276
+North Melbourne,304.0,1050,798
+Parkville,232.0,1050,601
+Port Melbourne,129.0,1050,328
+South Yarra,88.0,1050,219
+Southbank,23.0,1050,66
+West Melbourne,126.0,1050,319
+Carlton North,31.0,1065,76
+Carlton South,447.0,1065,1054
+Docklands,79.0,1065,366
+East Melbourne,160.0,1065,391
+Kensington/Flemington,214.0,1065,506
+Melbourne City,93.0,1065,276
+North Melbourne,312.0,1065,798
+Parkville,239.0,1065,601
+Port Melbourne,132.0,1065,328
+South Yarra,92.0,1065,219
+Southbank,23.0,1065,66
+West Melbourne,128.0,1065,319
+Carlton North,32.0,1080,76
+Carlton South,470.0,1080,1054
+Docklands,83.0,1080,366
+East Melbourne,166.0,1080,391
+Kensington/Flemington,223.0,1080,506
+Melbourne City,98.0,1080,276
+North Melbourne,327.0,1080,798
+Parkville,250.0,1080,601
+Port Melbourne,137.0,1080,328
+South Yarra,96.0,1080,219
+Southbank,24.0,1080,66
+West Melbourne,133.0,1080,319
+Carlton North,34.0,1095,76
+Carlton South,493.0,1095,1054
+Docklands,86.0,1095,366
+East Melbourne,170.0,1095,391
+Kensington/Flemington,230.0,1095,506
+Melbourne City,102.0,1095,276
+North Melbourne,339.0,1095,798
+Parkville,260.0,1095,601
+Port Melbourne,142.0,1095,328
+South Yarra,101.0,1095,219
+Southbank,25.0,1095,66
+West Melbourne,136.0,1095,319
+Carlton North,35.0,1110,76
+Carlton South,527.0,1110,1054
+Docklands,90.0,1110,366
+East Melbourne,175.0,1110,391
+Kensington/Flemington,239.0,1110,506
+Melbourne City,107.0,1110,276
+North Melbourne,352.0,1110,798
+Parkville,271.0,1110,601
+Port Melbourne,147.0,1110,328
+South Yarra,106.0,1110,219
+Southbank,26.0,1110,66
+West Melbourne,141.0,1110,319
+Carlton North,37.0,1125,76
+Carlton South,560.0,1125,1054
+Docklands,97.0,1125,366
+East Melbourne,181.0,1125,391
+Kensington/Flemington,247.0,1125,506
+Melbourne City,111.0,1125,276
+North Melbourne,367.0,1125,798
+Parkville,282.0,1125,601
+Port Melbourne,153.0,1125,328
+South Yarra,110.0,1125,219
+Southbank,27.0,1125,66
+West Melbourne,147.0,1125,319
+Carlton North,38.0,1140,76
+Carlton South,592.0,1140,1054
+Docklands,103.0,1140,366
+East Melbourne,185.0,1140,391
+Kensington/Flemington,255.0,1140,506
+Melbourne City,115.0,1140,276
+North Melbourne,379.0,1140,798
+Parkville,292.0,1140,601
+Port Melbourne,158.0,1140,328
+South Yarra,113.0,1140,219
+Southbank,28.0,1140,66
+West Melbourne,153.0,1140,319
+Carlton North,39.0,1155,76
+Carlton South,613.0,1155,1054
+Docklands,107.0,1155,366
+East Melbourne,186.0,1155,391
+Kensington/Flemington,257.0,1155,506
+Melbourne City,117.0,1155,276
+North Melbourne,385.0,1155,798
+Parkville,295.0,1155,601
+Port Melbourne,161.0,1155,328
+South Yarra,114.0,1155,219
+Southbank,29.0,1155,66
+West Melbourne,155.0,1155,319
+Carlton North,39.0,1170,76
+Carlton South,629.0,1170,1054
+Docklands,109.0,1170,366
+East Melbourne,188.0,1170,391
+Kensington/Flemington,260.0,1170,506
+Melbourne City,119.0,1170,276
+North Melbourne,388.0,1170,798
+Parkville,298.0,1170,601
+Port Melbourne,162.0,1170,328
+South Yarra,115.0,1170,219
+Southbank,30.0,1170,66
+West Melbourne,156.0,1170,319
+Carlton North,39.0,1185,76
+Carlton South,643.0,1185,1054
+Docklands,112.0,1185,366
+East Melbourne,188.0,1185,391
+Kensington/Flemington,260.0,1185,506
+Melbourne City,119.0,1185,276
+North Melbourne,388.0,1185,798
+Parkville,296.0,1185,601
+Port Melbourne,162.0,1185,328
+South Yarra,114.0,1185,219
+Southbank,30.0,1185,66
+West Melbourne,157.0,1185,319
+Carlton North,39.0,1200,76
+Carlton South,653.0,1200,1054
+Docklands,113.0,1200,366
+East Melbourne,187.0,1200,391
+Kensington/Flemington,259.0,1200,506
+Melbourne City,119.0,1200,276
+North Melbourne,386.0,1200,798
+Parkville,295.0,1200,601
+Port Melbourne,162.0,1200,328
+South Yarra,114.0,1200,219
+Southbank,31.0,1200,66
+West Melbourne,156.0,1200,319
+Carlton North,38.0,1215,76
+Carlton South,657.0,1215,1054
+Docklands,114.0,1215,366
+East Melbourne,183.0,1215,391
+Kensington/Flemington,255.0,1215,506
+Melbourne City,118.0,1215,276
+North Melbourne,379.0,1215,798
+Parkville,290.0,1215,601
+Port Melbourne,160.0,1215,328
+South Yarra,112.0,1215,219
+Southbank,30.0,1215,66
+West Melbourne,154.0,1215,319
+Carlton North,37.0,1230,76
+Carlton South,658.0,1230,1054
+Docklands,113.0,1230,366
+East Melbourne,180.0,1230,391
+Kensington/Flemington,250.0,1230,506
+Melbourne City,117.0,1230,276
+North Melbourne,372.0,1230,798
+Parkville,285.0,1230,601
+Port Melbourne,157.0,1230,328
+South Yarra,109.0,1230,219
+Southbank,30.0,1230,66
+West Melbourne,152.0,1230,319
+Carlton North,36.0,1245,76
+Carlton South,656.0,1245,1054
+Docklands,114.0,1245,366
+East Melbourne,175.0,1245,391
+Kensington/Flemington,244.0,1245,506
+Melbourne City,115.0,1245,276
+North Melbourne,363.0,1245,798
+Parkville,279.0,1245,601
+Port Melbourne,154.0,1245,328
+South Yarra,107.0,1245,219
+Southbank,30.0,1245,66
+West Melbourne,148.0,1245,319
+Carlton North,35.0,1260,76
+Carlton South,648.0,1260,1054
+Docklands,112.0,1260,366
+East Melbourne,170.0,1260,391
+Kensington/Flemington,237.0,1260,506
+Melbourne City,113.0,1260,276
+North Melbourne,352.0,1260,798
+Parkville,270.0,1260,601
+Port Melbourne,149.0,1260,328
+South Yarra,103.0,1260,219
+Southbank,29.0,1260,66
+West Melbourne,144.0,1260,319
+Carlton North,33.0,1275,76
+Carlton South,630.0,1275,1054
+Docklands,108.0,1275,366
+East Melbourne,162.0,1275,391
+Kensington/Flemington,227.0,1275,506
+Melbourne City,108.0,1275,276
+North Melbourne,338.0,1275,798
+Parkville,260.0,1275,601
+Port Melbourne,142.0,1275,328
+South Yarra,98.0,1275,219
+Southbank,28.0,1275,66
+West Melbourne,139.0,1275,319
+Carlton North,31.0,1290,76
+Carlton South,615.0,1290,1054
+Docklands,104.0,1290,366
+East Melbourne,155.0,1290,391
+Kensington/Flemington,218.0,1290,506
+Melbourne City,104.0,1290,276
+North Melbourne,324.0,1290,798
+Parkville,250.0,1290,601
+Port Melbourne,137.0,1290,328
+South Yarra,94.0,1290,219
+Southbank,27.0,1290,66
+West Melbourne,133.0,1290,319
+Carlton North,29.0,1305,76
+Carlton South,598.0,1305,1054
+Docklands,101.0,1305,366
+East Melbourne,147.0,1305,391
+Kensington/Flemington,209.0,1305,506
+Melbourne City,100.0,1305,276
+North Melbourne,308.0,1305,798
+Parkville,239.0,1305,601
+Port Melbourne,130.0,1305,328
+South Yarra,89.0,1305,219
+Southbank,26.0,1305,66
+West Melbourne,127.0,1305,319
+Carlton North,28.0,1320,76
+Carlton South,579.0,1320,1054
+Docklands,97.0,1320,366
+East Melbourne,139.0,1320,391
+Kensington/Flemington,199.0,1320,506
+Melbourne City,96.0,1320,276
+North Melbourne,292.0,1320,798
+Parkville,227.0,1320,601
+Port Melbourne,123.0,1320,328
+South Yarra,84.0,1320,219
+Southbank,25.0,1320,66
+West Melbourne,120.0,1320,319
+Carlton North,25.0,1335,76
+Carlton South,551.0,1335,1054
+Docklands,92.0,1335,366
+East Melbourne,128.0,1335,391
+Kensington/Flemington,183.0,1335,506
+Melbourne City,89.0,1335,276
+North Melbourne,268.0,1335,798
+Parkville,210.0,1335,601
+Port Melbourne,114.0,1335,328
+South Yarra,77.0,1335,219
+Southbank,23.0,1335,66
+West Melbourne,111.0,1335,319
+Carlton North,23.0,1350,76
+Carlton South,526.0,1350,1054
+Docklands,88.0,1350,366
+East Melbourne,120.0,1350,391
+Kensington/Flemington,173.0,1350,506
+Melbourne City,84.0,1350,276
+North Melbourne,250.0,1350,798
+Parkville,196.0,1350,601
+Port Melbourne,107.0,1350,328
+South Yarra,72.0,1350,219
+Southbank,22.0,1350,66
+West Melbourne,105.0,1350,319
+Carlton North,22.0,1365,76
+Carlton South,510.0,1365,1054
+Docklands,82.0,1365,366
+East Melbourne,112.0,1365,391
+Kensington/Flemington,164.0,1365,506
+Melbourne City,81.0,1365,276
+North Melbourne,235.0,1365,798
+Parkville,184.0,1365,601
+Port Melbourne,100.0,1365,328
+South Yarra,67.0,1365,219
+Southbank,21.0,1365,66
+West Melbourne,99.0,1365,319
+Carlton North,20.0,1380,76
+Carlton South,498.0,1380,1054
+Docklands,76.0,1380,366
+East Melbourne,105.0,1380,391
+Kensington/Flemington,157.0,1380,506
+Melbourne City,78.0,1380,276
+North Melbourne,221.0,1380,798
+Parkville,173.0,1380,601
+Port Melbourne,95.0,1380,328
+South Yarra,62.0,1380,219
+Southbank,20.0,1380,66
+West Melbourne,93.0,1380,319
+Carlton North,19.0,1395,76
+Carlton South,480.0,1395,1054
+Docklands,72.0,1395,366
+East Melbourne,98.0,1395,391
+Kensington/Flemington,149.0,1395,506
+Melbourne City,74.0,1395,276
+North Melbourne,207.0,1395,798
+Parkville,163.0,1395,601
+Port Melbourne,90.0,1395,328
+South Yarra,58.0,1395,219
+Southbank,19.0,1395,66
+West Melbourne,88.0,1395,319
+Carlton North,18.0,1410,76
+Carlton South,465.0,1410,1054
+Docklands,70.0,1410,366
+East Melbourne,93.0,1410,391
+Kensington/Flemington,143.0,1410,506
+Melbourne City,71.0,1410,276
+North Melbourne,197.0,1410,798
+Parkville,155.0,1410,601
+Port Melbourne,86.0,1410,328
+South Yarra,55.0,1410,219
+Southbank,18.0,1410,66
+West Melbourne,85.0,1410,319
+Carlton North,17.0,1425,76
+Carlton South,452.0,1425,1054
+Docklands,67.0,1425,366
+East Melbourne,90.0,1425,391
+Kensington/Flemington,139.0,1425,506
+Melbourne City,69.0,1425,276
+North Melbourne,190.0,1425,798
+Parkville,148.0,1425,601
+Port Melbourne,83.0,1425,328
+South Yarra,53.0,1425,219
+Southbank,18.0,1425,66
+West Melbourne,81.0,1425,319

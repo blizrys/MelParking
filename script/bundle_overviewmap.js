@@ -32,7 +32,7 @@
     // d3.json('../data/Postcodes.geojson', function(error,json) {
        //if (error) throw error;
 
-       console.log(json);
+       // console.log(json);
        // createMap(data);
 
        // var text = svg.append("text")
@@ -50,7 +50,7 @@
        var feature = g3.selectAll("path")
                .data(json.features)
              .enter().append("path");
-       console.log(feature)
+       // console.log(feature)
        feature.style('fill', '#000')
        .style('fill-opacity','0.5')
        .style('stroke','#fff')
@@ -66,7 +66,7 @@
 
        // Reposition the SVG to cover the features.
        function reset() {
-           console.log("reset called")
+           // console.log("reset called")
          var bounds = path.bounds(json),
              topLeft = bounds[0],
              bottomRight = bounds[1];

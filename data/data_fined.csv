@@ -1,0 +1,145 @@
+sub_name,month,InViolation
+Carlton North,1,1720
+Carlton North,2,1779
+Carlton North,3,2018
+Carlton North,4,1654
+Carlton North,5,2073
+Carlton North,6,1855
+Carlton North,7,1899
+Carlton North,8,1944
+Carlton North,9,1946
+Carlton North,10,2048
+Carlton North,11,1976
+Carlton North,12,1961
+Carlton South,1,28745
+Carlton South,2,29837
+Carlton South,3,34283
+Carlton South,4,30720
+Carlton South,5,40162
+Carlton South,6,38841
+Carlton South,7,40957
+Carlton South,8,41727
+Carlton South,9,40070
+Carlton South,10,42999
+Carlton South,11,40536
+Carlton South,12,39515
+Docklands,1,3875
+Docklands,2,4450
+Docklands,3,5088
+Docklands,4,4208
+Docklands,5,5634
+Docklands,6,5355
+Docklands,7,5646
+Docklands,8,5502
+Docklands,9,5179
+Docklands,10,5105
+Docklands,11,6934
+Docklands,12,8703
+East Melbourne,1,8228
+East Melbourne,2,9332
+East Melbourne,3,10481
+East Melbourne,4,9051
+East Melbourne,5,11156
+East Melbourne,6,10045
+East Melbourne,7,10900
+East Melbourne,8,10691
+East Melbourne,9,10411
+East Melbourne,10,10953
+East Melbourne,11,10130
+East Melbourne,12,9720
+Kensington/Flemington,1,10372
+Kensington/Flemington,2,11218
+Kensington/Flemington,3,12653
+Kensington/Flemington,4,10887
+Kensington/Flemington,5,13304
+Kensington/Flemington,6,11892
+Kensington/Flemington,7,12962
+Kensington/Flemington,8,13511
+Kensington/Flemington,9,12673
+Kensington/Flemington,10,13580
+Kensington/Flemington,11,12555
+Kensington/Flemington,12,11771
+Melbourne City,1,4717
+Melbourne City,2,5313
+Melbourne City,3,6438
+Melbourne City,4,5474
+Melbourne City,5,7003
+Melbourne City,6,6465
+Melbourne City,7,7317
+Melbourne City,8,7725
+Melbourne City,9,7089
+Melbourne City,10,7499
+Melbourne City,11,7609
+Melbourne City,12,8245
+North Melbourne,1,15095
+North Melbourne,2,17114
+North Melbourne,3,19217
+North Melbourne,4,16160
+North Melbourne,5,20872
+North Melbourne,6,18897
+North Melbourne,7,20494
+North Melbourne,8,21246
+North Melbourne,9,19072
+North Melbourne,10,20630
+North Melbourne,11,19320
+North Melbourne,12,18871
+Parkville,1,11404
+Parkville,2,12879
+Parkville,3,14018
+Parkville,4,11741
+Parkville,5,15305
+Parkville,6,14040
+Parkville,7,15906
+Parkville,8,16547
+Parkville,9,15534
+Parkville,10,16218
+Parkville,11,14583
+Parkville,12,14167
+Port Melbourne,1,6349
+Port Melbourne,2,6920
+Port Melbourne,3,7680
+Port Melbourne,4,6353
+Port Melbourne,5,8013
+Port Melbourne,6,7286
+Port Melbourne,7,8186
+Port Melbourne,8,8533
+Port Melbourne,9,8391
+Port Melbourne,10,8744
+Port Melbourne,11,7909
+Port Melbourne,12,7720
+South Yarra,1,4628
+South Yarra,2,5181
+South Yarra,3,5689
+South Yarra,4,4942
+South Yarra,5,6114
+South Yarra,6,5503
+South Yarra,7,6021
+South Yarra,8,6254
+South Yarra,9,5669
+South Yarra,10,6181
+South Yarra,11,5700
+South Yarra,12,5323
+Southbank,1,1326
+Southbank,2,1541
+Southbank,3,1645
+Southbank,4,1391
+Southbank,5,1877
+Southbank,6,1593
+Southbank,7,1689
+Southbank,8,1831
+Southbank,9,1728
+Southbank,10,1837
+Southbank,11,1562
+Southbank,12,1554
+West Melbourne,1,5868
+West Melbourne,2,6628
+West Melbourne,3,7274
+West Melbourne,4,6776
+West Melbourne,5,8326
+West Melbourne,6,7414
+West Melbourne,7,8299
+West Melbourne,8,8693
+West Melbourne,9,8159
+West Melbourne,10,8629
+West Melbourne,11,7644
+West Melbourne,12,7478

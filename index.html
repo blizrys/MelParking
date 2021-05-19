@@ -29,6 +29,7 @@
           font-size: 3.5rem;
         }
       }
+      .x { font: 8px sans-serif; }
     </style>
 
 
@@ -43,7 +44,7 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
-
+    <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
     <link rel="shortcut icon" href="#">
 
   </head>
@@ -187,31 +188,61 @@ Although there are 14 suburbs, we've combined them into 10 small area profiles f
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light">
     <div class="col-md-10 p-lg-10 mx-auto my-10">
       <p class="lead fw-normal">
-          Since we only have on-street sensor, we our further report will only be based on data collected from those sensor.
-          In other words, we will focus on available data from 5k on-street parking spaces out of 24K on-street parking spaces.
+          Since we only have data from on-street sensor, we our further report will only be based on these collected information.
+          In other words, we will focus on available data from 5k on-street parking sensor out of 24K on-street parking spaces.
       </p>
     </div>
   </div>
 
   <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-light me-md-3  text-center overflow-hidden" style="padding: 20px;">
-        <svg id="partitionSVG_2" viewBox="0 0 600 600"></svg>
+      <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <!-- <h2 class="display-5">Parking Availability</h2> -->
+          <p class="lead">
+              On average, Carton South is the usual area that traveller parked thier car desprite of time of the day.
+              This goes with respect available on-street parking spaces offer in that area.
+              Moreover if we look closely, Carton South usually be crowded all day especially during afternoon and evening time.
+              While other parking area only crowded during afternoon.<br><br>
 
-        <input id="resetbtn"
-           name="revertButton"
-           type="button"
-           value="Play"
-           />
-        <script src="../script/bundle_racebar.js"></script>
-      <!-- <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
-    </div>
-    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5">Parking Availability</h2>
-        <p class="lead">Say something about parking</p>
+              Looking from the graph, we might conclude that dockland would be the best parking area to traverse to the city.
+          </p>
+        </div>
+        <!-- <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
       </div>
-      <!-- <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
-    </div>
+      <div class="bg-light me-md-3  text-center overflow-hidden" style="padding: 20px;">
+          <h2 class="display-5">Parking Occupied</h2>
+          <svg id="partitionSVG_2" viewBox="0 0 600 600"></svg>
+          <div id="controller" style="margin-top:10px">
+              <div style="display:inline-flex">
+                  <div style="width:50%" style="display:none">
+                      <label for="my_slider">Interval (minutes): <label id="my_intervaltext">15</label> </label>
+                      <input id="my_slider" type="range" class="form-range" min="15" max="60" step="15" value="60" >
+                  </div>
+                  <div style="width:50%">
+                       <label class="form-check-label" >Count or Percent</label>
+                       <div class="form-check form-switch" style="margin-left:40%">
+                        <input class="form-check-input" type="checkbox" id="my_options_switch">
+                    </div>
+                  </div>
+              </div>
+              <input id="resetbtn"
+                 name="revertButton"
+                 type="button"
+                 value="Play"
+                 class="btn btn-dark"
+                 style="display:inline-block;"
+                 />
+              <input id="stopbtn"
+                    name="stopButton"
+                    type="button"
+                    value="Stop"
+                    class="btn btn-dark"
+                    style="display:none;"
+                    />
+          </div>
+          <script src="../script/bundle_racebar.js"></script>
+        <!-- <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
+      </div>
   </div>
 
 
@@ -225,9 +256,15 @@ Although there are 14 suburbs, we've combined them into 10 small area profiles f
 
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
     <div class="col-md-8 p-lg-8 mx-auto my-8">
-      <h1 class="display-6 fw-normal">Explaination #2</h1>
+      <h1 class="display-6 fw-normal">Insight #2</h1>
       <p class="lead fw-normal">
-          Write something
+          The interesting knowledge we learned from our data is that most traveller choose to park in
+          the northern area of the city or Melbourne.
+          This might lead to question back to the Government whether this are their intention or not?
+          If not, does melbourne has enough parking space offer for travellers that come from the south side of the city?<br><br>
+
+          However, our data exclude area of 'South Melbourne'. We suggest that Government should include and setup sensor onto this area.
+          Given if we have more information on this, could lead to proper insight and planning to accommondate parking spaces for travellers into the city.
       </p>
       <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
     </div>
@@ -235,11 +272,32 @@ Although there are 14 suburbs, we've combined them into 10 small area profiles f
     <!-- <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> -->
   </div>
 
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+      <h1 class="display-6 fw-normal">Parking Fined</h1>
+      <p class="lead fw-normal" id="tooltip-text">
+          Hover for more details
+      </p>
+        <!-- <div id='stackedarea_1'></div> -->
+        <svg id="stackedarea_1" width="800" height="400"></svg>
+
+    <div>
+        Display Options:
+        <select id="year">
+            <option value="month">By Month</option>
+            <option value="suburb">By Suburb</option>
+        </select>
+
+        <input type="checkbox" id="sort">
+        Toggle sort
+</div>
+        <script src="../script/bundle_stackedarea.js"></script>
+  </div>
+
+  <!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
       <div class="my-3 p-3">
         <h2 class="display-5">Parking Fined</h2>
-        <p class="lead">And an even wittier subheading.</p>
+        <p class="lead">In violation per month across the year</p>
       </div>
       <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
@@ -248,16 +306,10 @@ Although there are 14 suburbs, we've combined them into 10 small area profiles f
         <h2 class="display-5">Show some racing Graph</h2>
         <p class="lead">And an even wittier subheading.</p>
       </div>
-      <!-- <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
     </div>
-  </div>
+  </div> -->
 
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-      <h2 class="display-5">Heatmap</h2>
-      <p class="lead">And an even wittier subheading.</p>
-      <div id='heatmap_2'></div>
-      <!-- <script src="../script/bundle_heatgraph.js"></script> -->
-  </div>
+
 
   <!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
@@ -277,9 +329,17 @@ Although there are 14 suburbs, we've combined them into 10 small area profiles f
 
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
     <div class="col-md-8 p-lg-8 mx-auto my-8">
-      <h1 class="display-6 fw-normal">Explaination #3</h1>
+      <h1 class="display-6 fw-normal">Insight #3</h1>
       <p class="lead fw-normal">
-          Write something
+          On average, drivers got fined for parking overtime about 13k(?) per month.
+          We could see that the ratio of parking fined record in each area actually goes propotional to number of parking sensors.
+          Having fined can either mean people are not following the rules or rules might not suitable for people behavior.
+          But because this happen at the same ratio through out the year. Goverment should be considering adjusting the parking restriction.
+          This shows that parking space inside the city has parking restriction time that might not be making sense to how driver needed for parking.
+          <br><br>
+          Alternatively, from the start of our insight towards the data. Lots of Off-street parking space is available.
+          Why does people chose to parking on-street rather than off-street. Our first assumption would be the price they charged for parking.
+          Goverment should also take a look into the overall prices parking space. if it does make sense for people that require to travel to city frequently.
       </p>
       <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
     </div>
@@ -291,7 +351,11 @@ Although there are 14 suburbs, we've combined them into 10 small area profiles f
     <div class="col-md-8 p-lg-8 mx-auto my-8">
       <h1 class="display-6 fw-normal">Conclusion</h1>
       <p class="lead fw-normal">
-          Write something
+          Our initial observation towards parking space give us some interesting insights.
+          The first interesting point is that off-street parking space have more than on streets.
+          The second interesting insight is that there are only limited number of sensor setup so far.
+          The third observation is that Carlton South is the most crowded area (and also most parking space).
+          The forth observation parking fined might not be make sense.
       </p>
       <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
     </div>
@@ -299,6 +363,19 @@ Although there are 14 suburbs, we've combined them into 10 small area profiles f
     <!-- <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> -->
   </div>
 
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+      <h2 class="display-5">On-street Parking Density</h2>
+      <p class="lead">Heatmap show density of actual parking space locations. Red/Yellow represents parking with sensor. Blue represent parking without sensor</p>
+      <!-- <div id='heatmap_2'></div> -->
+      <div id="heatmap_2" style="width: 100%; height: 400px"></div>
+
+      <!-- <link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+      <script src="https://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script> -->
+
+      <!-- <script src="./data/earthquake.js"></script> -->
+      <script src="./script/bundle_heatmap.js"></script>
+      <!-- <script src="../script/bundle_heatgraph.js"></script> -->
+  </div>
   <!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
       <div class="my-3 p-3">

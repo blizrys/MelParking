@@ -20,25 +20,31 @@
         }
         return memo
       }, { weekDays: [], hours: [] })
+
+      // var divbox = document.getElementById(wrapper);
+      // console.log(wrapper.offsetWidth);
+
       const margin = { top: 0, right: 0, bottom: 50, left: 50 }
       const width = 800 - margin.left - margin.right
       const height = 500 - margin.top - margin.bottom
       const DURATION = 2000
-      const xGridSize = Math.floor(width / parsedDaysHours.weekDays.length)
+      const xGridSize = Math.floor(width / parsedDaysHours.weekDays.length)-5
+      // const xGridSize = 5
       const yGidSize = Math.floor(height / parsedDaysHours.hours.length)
 
       const svgData = d3Select(wrapper).selectAll('svg').data(['dummy data'])
       const svgEnter = svgData.enter().append('svg')
       svgEnter.attr("width", width + margin.left + margin.right)
       svgEnter.attr("height", height + margin.top + margin.bottom)
+
       const gEnter = svgEnter.append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
         .attr('class', 'heatmap')
       const svgMerge = svgData.merge(svgEnter)
       const gMerge = svgMerge.selectAll('g.heatmap')
 
-      const freeColor = '#00ff00'
-      const loadColor = '#ff0000'
+      const freeColor = '#f9f5ef'
+      const loadColor = '#a13d3b'
       const colorScale = d3ScaleLinear()
         .domain([0, 100]).range([d3Rgb(freeColor), d3Rgb(loadColor)])
 
@@ -51,6 +57,7 @@
       gEnter.append("g")
         .attr('class', 'x')
         .attr('transform', `translate(0, ${height})`)
+        // .style('font-size', '4em !important')
       gMerge
         .select('g.x')
         .transition()
@@ -85,6 +92,7 @@
         .style('padding', '10px')
         .style('position', 'absolute')
 
+        // console.log("test here")
       const tooltipMerge = tooltipData.merge(tooltipEnter)
 
       const heatBoxData = gMerge.selectAll('g.hour')
@@ -122,7 +130,7 @@
         .attr("y", (d) => yScale(d.hour) + yGidSize/2)
 
       heatBoxMerge.select('text')
-        .text((d) => d.value)
+        .text((d) => d3.format(',.2f')(d.value))
 
       heatBoxMerge
         .on('mouseover', (d) => {
@@ -147,38 +155,45 @@
       d3Select(wrapper).selectAll('*').remove()
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
-      function generateDayData (day) {
-        const times = ["01am", "02am", "03am", "04am", "05am", "06am", "07am", "08am", "09am", "10am", "11am", "12am", "01pm", "02pm", "03pm", "04pm", "05pm", "06pm", "07pm", "08pm", "09pm", "10pm", "11pm", "12pm"]
-        return times.map(hour => { return { day, value: Math.round(Math.random()*100,2), hour }})
-      }
+    d3.json('../data/data_heatmap.json').then(data => {
+        // console.log(data);
+        var dataSlice = data.filter(d => d.hour%60 ==0)
+        // console.log(dataSlice)
+        renderChart(document.querySelector('#heatmap_1'), dataSlice);
+    });
 
-      // setInterval(() => {
-      //   renderChart(document.querySelector('#wrapper'), [
-      //     ...generateDayData('Monday'),
-      //     ...generateDayData('Tuesday'),
-      //     ...generateDayData('Wednesday'),
-      //     ...generateDayData('Thursday'),
-      //     ...generateDayData('Friday'),
-      //     ...generateDayData('Saturday'),
-      //     ...generateDayData('Sunday'),
-      //   ])
-      // }, 5000)
-
-      var heatdata = [
-        ...generateDayData('Monday'),
-        ...generateDayData('Tuesday'),
-        ...generateDayData('Wednesday'),
-        ...generateDayData('Thursday'),
-        ...generateDayData('Friday'),
-        ...generateDayData('Saturday'),
-        ...generateDayData('Sunday'),
-    ];
-        console.log(heatdata);
-
-      renderChart(document.querySelector('#heatmap_1'), heatdata)
-      renderChart(document.querySelector('#heatmap_2'), heatdata)
-    })
+    // document.addEventListener('DOMContentLoaded', () => {
+    //   function generateDayData (day) {
+    //     const times = ["01am", "02am", "03am", "04am", "05am", "06am", "07am", "08am", "09am", "10am", "11am", "12am", "01pm", "02pm", "03pm", "04pm", "05pm", "06pm", "07pm", "08pm", "09pm", "10pm", "11pm", "12pm"]
+    //     return times.map(hour => { return { day, value: Math.round(Math.random()*100,2), hour }})
+    //   }
+    //
+    //   // setInterval(() => {
+    //   //   renderChart(document.querySelector('#wrapper'), [
+    //   //     ...generateDayData('Monday'),
+    //   //     ...generateDayData('Tuesday'),
+    //   //     ...generateDayData('Wednesday'),
+    //   //     ...generateDayData('Thursday'),
+    //   //     ...generateDayData('Friday'),
+    //   //     ...generateDayData('Saturday'),
+    //   //     ...generateDayData('Sunday'),
+    //   //   ])
+    //   // }, 5000)
+    //
+    //   var heatdata = [
+    //     ...generateDayData('Monday'),
+    //     ...generateDayData('Tuesday'),
+    //     ...generateDayData('Wednesday'),
+    //     ...generateDayData('Thursday'),
+    //     ...generateDayData('Friday'),
+    //     ...generateDayData('Saturday'),
+    //     ...generateDayData('Sunday'),
+    // ];
+    //     // console.log(heatdata);
+    //
+    //   renderChart(document.querySelector('#heatmap_1'), heatdata)
+    //   // renderChart(document.querySelector('#heatmap_2'), heatdata)
+    // })
 
 
 }());
