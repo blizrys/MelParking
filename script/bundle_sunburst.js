@@ -35,14 +35,11 @@
 
         root.each(d => d.current = d);
 
-
         const svg = d3.select('#partitionSVG')
                 // .style('max-width', '600px')
                 // .style('max-height', '70%')
                 .attr('viewBox', `0 0 ${screen_width} ${screen_width}`)
                 .style("font", "1.5em sans-serif");
-
-
 
         const g = svg.append("g")
                 .attr("transform", `translate(${screen_width / 2},${screen_width / 2})`);
@@ -92,8 +89,20 @@
                 //         .attr('x', 6)
                 //         .attr('y', 3);
 
+        function recur_text(node){
+            // console.log(node);
+            if(node == null){
+                // return "<li class='breadcrumb-item'>.</li>"
+                return ""
+            }
+            return recur_text(node.parent) + "<li class='breadcrumb-item'>"+node.data.name+"</li>"
+        }
 
         function clicked(p) {
+            // console.log(p);
+            $('#nav_path').html(recur_text(p));
+            $('#nav_path').children().last().addClass('active');
+
             parent.datum(p.parent || root);
 
             root.each(d => d.target = {

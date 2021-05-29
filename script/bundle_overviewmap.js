@@ -1,9 +1,7 @@
 (function () {
     'use strict';
 
-    // var map3 = new L.Map("partitionMap1", {center: [-37.810935,144.956457], zoom: 16})
-    //     .addLayer(new L.TileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"));
-    var map3 = L.map('partitionMap1').setView([-37.765,145.035], 12);
+    var map3 = L.map('partitionMap1').setView([-37.80,145.06], 12);
     var mapLink3 =
         '<a href="http://openstreetmap.org">OpenStreetMap</a>';
     L.tileLayer(
@@ -22,47 +20,24 @@
     var svg3 = d3.select(map3.getPanes().overlayPane).append("svg"),
         g3 = svg3.append("g").attr("class", "leaflet-zoom-hide");
 
-
-    // var svg3 = d3.select("#partitionMap1")
-    //
-    // var projection = d3.geoEquirectangular();
-    // var path = d3.geoPath().projection(projection);
-
     d3.json('../data/Postcodes.geojson').then(json => {
-    // d3.json('../data/Postcodes.geojson', function(error,json) {
-       //if (error) throw error;
-
-       // console.log(json);
-       // createMap(data);
-
-       // var text = svg.append("text")
-       //     .attr("x", 6)
-       //     .attr("dy", 15);
-       //
-       // text.append("textPath")
-       //     .attr("xlink:href","#yourPathId")
-       //     .text("My counter text");
 
        var transform = d3.geoTransform({point: projectPoint}),
            path = d3.geoPath().projection(transform);
 
-
        var feature = g3.selectAll("path")
-               .data(json.features)
+             .data(json.features)
              .enter().append("path");
+
        // console.log(feature)
+
        feature.style('fill', '#000')
        .style('fill-opacity','0.5')
        .style('stroke','#fff')
        .style('stroke-width','1.5px');
 
-       // feature.append("title")
-       //         .text(d => d.properties.xorg);
-
        map3.on("zoom", reset);
        reset();
-
-       // svg3.call(d3.zoom().on("zoom", function () {reset();}));
 
        // Reposition the SVG to cover the features.
        function reset() {
@@ -88,9 +63,16 @@
         }
     });
 
-
-
-
-
+    // $(document).ready(function(){
+    //     var width = document.getElementById("partitionMap1").clientWidth,
+    //         height = document.getElementById("partitionMap1").clientHeight;
+    //
+    //     var offset = [width/2, height/2];
+    //     console.log(document.getElementById("partitionMap1"),width,height);
+    //
+    //     path.translate([width / 2, height / 2])
+    //
+    //     map3 = L.map('partitionMap1').setView([0,145.035], 12);
+    // });
 
 }());

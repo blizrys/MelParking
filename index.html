@@ -1,216 +1,240 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.83.1">
-    <title>MelParking</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/product/">
+        <!-- Reference Template
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Hugo 0.83.1"> -->
+
+        <meta name="author" content="Jirarote Jirasirikul">
+        <meta name="student_id" content="31334679">
+        <meta name="University" content="Monash University">
+
+        <title>MelParking</title>
+
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/product/">
+
+        <!-- Bootstrap core CSS -->
+        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <style>
+          .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+          }
+
+          @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+              font-size: 3.5rem;
+            }
+          }
+          .x { font: 8px sans-serif; }
+
+          .breadcrumb {
+               color: #007bff;
+            }
+
+            .legend {
+                line-height: 18px;
+                color: #555;
+                background-color: rgba(255,255,255,0.9);
+                padding: 10px;
+            }
+            .legend i {
+                width: 18px;
+                height: 18px;
+                float: left;
+                margin-right: 8px;
+                opacity: 0.7;
+            }
+        </style>
 
 
+        <!-- Custom styles for this template -->
+        <link href="../product/product.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src='https://d3js.org/d3.v5.min.js'></script>
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+        <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+        <link rel="shortcut icon" href="#">
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      .x { font: 8px sans-serif; }
-    </style>
+    </head>
+    <body>
 
+    <header class="site-header sticky-top py-1">
+      <nav class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2" href="#" aria-label="Product">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+        </a>
+        <a class="py-2 d-none d-md-inline-block" href="#sec_insight_1">Insight 1</a>
+        <a class="py-2 d-none d-md-inline-block" href="#sec_insight_2">Insight 2</a>
+        <a class="py-2 d-none d-md-inline-block" href="#sec_insight_3">Insight 3</a>
+        <a class="py-2 d-none d-md-inline-block" href="#sec_conclude">Conclusion</a>
+      </nav>
+    </header>
 
-    <!-- Custom styles for this template -->
-    <link href="../product/product.css" rel="stylesheet">
-
-    <script src='https://d3js.org/d3.v5.min.js'></script>
-
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-    crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-    crossorigin=""></script>
-    <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
-    <link rel="shortcut icon" href="#">
-
-  </head>
-  <body>
-
-<header class="site-header sticky-top py-1">
-  <nav class="container d-flex flex-column flex-md-row justify-content-between">
-    <a class="py-2" href="#" aria-label="Product">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
-    </a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
-  </nav>
-</header>
-
-<main style="margin-left:5%; margin-right:5%">
+<main style="margin-left:5%; margin-right:5%;font-weight:300;">
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" style="background-image: url('../images/flinderstreet_bg.jpeg');background-color: #cccccc;background-size: cover;filter: grayscale(100%);">
     <div class="col-md-8 p-lg-8 mx-auto my-8" style="background-color: rgba(255,255,255,0.8);
   padding: 20px; margin-top: 200px; border-radius: 15px;">
       <h1 class="display-6 fw-normal">The Melbourne City Parking Insight</h1>
-      <p class="lead fw-normal">Our goal is to find an insight that could potentially given to VICRoad’s Executives for city development plan on
-      what is missing and how could they taken next step to handle better parking spaces in The Melbourne City.</p>
-      <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+      <p class="lead fw-normal">
+        Our goal is to find an insight that could be potentially given to VICRoad’s Executives
+        an idea for a city development plan could pursue towards. The insight will point out
+        the current situations. Then we will disclose what could be missing. Lastly, we will suggest
+        a potential next step to handle better parking spaces in The City of Melbourne.
+      </p>
     </div>
-    <!-- <div class="product-device shadow-sm d-none d-md-block"></div> -->
-    <!-- <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> -->
   </div>
 
   <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5">Infographic</h2>
-        <p class="lead">
-            Based on <a href='https://https://www.melbourne.vic.gov.au/about-melbourne/melbourne-profile/suburbs/Pages/suburbs.aspx'>www.melbourne.vic.gov.au</a> website,
-            The city of Melbourne municipality includes <b style="color:#FFCCBB;">14 suburbs</b> with the size approximate 37.7 km<sup>2</sup>.
+    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
+      <div style="padding-bottom: 2rem">
+        <h2 class="display-5 text-center">Infographic</h2>
+        <p style="">
+            From the <a href='https://www.melbourne.vic.gov.au/about-melbourne/melbourne-profile/suburbs/Pages/suburbs.aspx'>
+            Melbourne's official website</a>, the city of Melbourne municipality includes 14 suburbs
+            with a size of approximately 37.7 km<sup>2</sup>. <br><br>
 
-            <!-- However, data from Melbourne Open Data has subdivide postcode into 17 areas.
-
-            provide that people from many cultures call home and where diverse private businesses and government organisations are located.
-Our 37.7 km2 municipality includes most of Melbourne's famous sporting venues and major parks and gardens.
-
-Although there are 14 suburbs, we've combined them into 10 small area profiles for reporting purposes. -->
+            Although there are 14 suburbs, some are less well known and are confusingly merge with one another.
         </p>
       </div>
-      <!-- <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
     </div>
     <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="background-image: url('../images/suburb_vicgov.png');background-color: #cccccc;background-position:center;background-size: cover;min-height: 300px;">
-        <!-- <img src="../images/suburb_vicgov.png"> -->
-      <!-- <div class="my-3 p-3">
-        <h2 class="display-5">Another headline</h2>
-        <p class="lead">And an even wittier subheading.</p>
-      </div> -->
-      <!-- <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
     </div>
   </div>
 
   <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="bg-light me-md-3  text-center overflow-hidden">
-        <div id="partitionMap1" style="width: 100%; min-height: 100%"></div>
+        <div id="partitionMap1" style="width: 100%; height: 100%; min-height: 300px"></div>
         <script src="../script/bundle_overviewmap.js"></script>
-      <!-- <div class="my-3 p-3">
-        <h2 class="display-5">Another headline</h2>
-        <p class="lead">And an even wittier subheading.</p>
-      </div> -->
-      <!-- <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
     </div>
-    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-    <!-- <div class="bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"> THIS SHOW BLUE COLOR-->
-      <div class="my-3 py-3">
-        <!-- <h2 class="display-5">Suburb</h2> -->
-        <p class="lead">However, Melbourne Open Data (<a href='https://data.melbourne.vic.gov.au/'>data.melbourne.vic.gov.au</a>)
-            has subdivide The city of Melbourne into 17 postcode areas. This show inconsistent of data even from the goverment websites.<br><br>
-            Some suburb could be formed from multiple postcode area.<br>
-            For example, Parkville suburb has postcodes:  <br>
-            <label style="font-size: 1rem;    text-align: left">
-            - 3010 : UNIVERSITY OF MELBOURNE, VIC<br>
-            - 3050 : ROYAL MELBOURNE HOSPITAL, VIC <br>
-            - 3052 : PARKVILLE, VIC<br>
-            </label><br>
+    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
+      <div style="padding-bottom: 2rem">
+        <p class="">
+            However, data from the <a href='https://auspost.com.au/postcode/'>Melbourne Open-Data website<a>
+            subdivide the city into 17 postcode areas. These postcodes are mainly used for identifying locations
+            in the official document or transaction includes delivery. The reason why the postcode has more than
+            suburbs are because some suburbs may have important locations that can specify themselves.<br><br>
+
+            For example - Parkville suburb contains postcodes below:<br>
+            <ul>
+              <li>3010 : UNIVERSITY OF MELBOURNE, VIC</li>
+              <li>3050 : ROYAL MELBOURNE HOSPITAL, VIC </li>
+              <li>3052 : PARKVILLE, VIC</li>
+            </ul>
             Refer to data from <a href='https://auspost.com.au/postcode/'>AusPost</a>
         </p>
       </div>
-      <!-- <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
     </div>
   </div>
 
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light">
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light" id="sec_insight_1">
     <div class="col-md-10 p-lg-10 mx-auto my-10">
       <h1 class="display-6 fw-normal text-center">Insight #1</h1>
-      <p class="lead fw-normal">
-          The information given from Melbourne Goverment websites shows that even the official known data source
-          cannot clearly defined the areas. Although, this might not cause any problem becuase postal address use postcode
-          to locate actual locations. However, due to poorly defined on the area and suburb name. This could cause some confusion
-          when need to verbally communicate. It it recommend that Goverment should take this into consideration and improve this matter<br><br>
+      <p class="fw-normal">
+          The information from two Melbourne Government websites shows that even the official known data source
+          can refer to the same location differently. This might not have caused any problem because
+          postal addresses use the postcode to locate actual locations, while suburbs are use unofficially to get
+          a grasp of an area. However, these inconsistencies could cause some confusion to Melburnian when verbally communicate.
+          We recommend that Government should consider this and improve by announcing the official definition of each area.
+          Moreover, as some of us might aware Metropolitan council's responsible area should be included with this clarification.<br><br>
 
-          To make our understanding simple and consistence across this report, we will use <b style="color:#FFCCBB;">12 suburbs</b>.
-          This was conclude by using data from <a href='https://https://www.melbourne.vic.gov.au/about-melbourne/melbourne-profile/suburbs/Pages/suburbs.aspx'>www.melbourne.vic.gov.au</a>
-          which has 14 suburbs and group 'South Wharf-South Bank' and 'Kensington-Flemington' together as the areas are not clearly merged between 2 data sources.
+          To make our understanding simple and consistent across this report, we will use 12 suburbs. This was
+          concluded by using data from Melbourne's official website as a base, which has 14 suburbs. The grouped
+          'South Wharf-South Bank' and 'Kensington-Flemington' together, as these areas boundaries are not distinctly
+          combined between 2 data sources.
       </p>
-      <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
     </div>
-    <!-- <div class="product-device shadow-sm d-none d-md-block"></div> -->
-    <!-- <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> -->
   </div>
 
   <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-      <div class="my-3 p-3">
-        <h2 class="display-5">Parking spaces</h2>
-        <p class="lead">
-            The city of Melbourne is a major city that people traverse both for work and pleasure.
-            The chart on the right show an overview of available parking space within the city.
-            Totally, there are 1.2M Parking spaces available.<br><br>
+    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
+      <div style="padding-bottom: 2rem">
+        <h2 class="display-5 text-center">Parking spaces</h2>
+        <p class="">
+            Melbourne is a major city in Victoria state where people traverse both for work and pleasure.
+            Although the city offers multiple ways of transmuting, Driving to the city is still preferable
+            due to its convenience and flexibility. The chart on the right shows an overview of available
+            parking space within the city. There are 1.2M Parking spaces available in total including public
+            on-street parking spaces and registered off-street parking spaces.<br><br>
 
-            Our initial observation show that majorly parking space are offer as commercial off-streets.
-            Only 2% (24k) of overall parking spaces are on-street parking which is very limited.
-            This show that the city encourage travelers to use public transport or parking off-street.<br><br>
+            Our initial observation shows that majorly parking spaces in Melbourne are offered as commercial
+            off-streets parking spaces. Only 2% (24k) of overall parking spaces are very limited on-street parking
+            that was allocated by the officials. This aligned with the drive to encourage travelers to commute using
+            public transport. Drivers can opt. to pay for parking off-street as deem necessary.<br><br>
 
-            Moreover, as the city are pushing on-street parking sensor to become smart city,
-            only 20% (5k) of on-street parking spaces has been implemented.
+            Moreover, the city is pushing to become a smart city, on-street parking sensor has been set up across
+            the city. However, only 20% (5k) of on-street parking spaces has been implemented to date. This shows as a very small proportional which you can see from heatmap below.
         </p>
       </div>
-      <!-- <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
     </div>
-    <div class="bg-light me-md-3 text-center overflow-hidden" style="padding:20px">
+    <div class="bg-light me-md-3 overflow-hidden" style="padding:20px">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb" id="nav_path">
+            <li class="breadcrumb-item active">Suburb</li>
+          </ol>
+        </nav>
         <script src="https://cdn.jsdelivr.net/npm/@observablehq/stdlib"></script>
         <svg id="partitionSVG"></svg>
         <script src="../script/bundle_sunburst.js"></script>
-        <p class="lead">
-            Hover to see actual number count
+        <p style="padding-top:15px" class="text-center">
+            Hover to see actual count number of parking spaces
         </p>
-      <!-- <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
     </div>
+  </div>
+
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" id="test_scroll">
+      <h2 class="display-5">On-street Parking Density</h2>
+      <p class="">Heatmap show density of onstreet parking spaces in the city of Melbourne.</p>
+      <!-- <div id='heatmap_2'></div> -->
+      <div id="heatmap_2" style="width: 100%; height: 400px"></div>
+      <!-- <link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+      <script src="https://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script> -->
+
+      <!-- <script src="./data/earthquake.js"></script> -->
+      <script src="./script/bundle_heatmap.js"></script>
+      <!-- <script src="../script/bundle_heatgraph.js"></script> -->
   </div>
 
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light">
     <div class="col-md-10 p-lg-10 mx-auto my-10">
-      <p class="lead fw-normal">
-          Since we only have data from on-street sensor, we our further report will only be based on these collected information.
-          In other words, we will focus on available data from 5k on-street parking sensor out of 24K on-street parking spaces.
+      <p class=" fw-normal">
+            Since we only have data from the on-street sensor, our further report regards parking habits
+            will only be based on those collected pieces of information. In other words, we will focus on
+            available data from 5k on-street parking sensors out of 24K on-street parking spaces. We assume
+            that these are sampling is valid since the location of the sensors is spread out from across the city.
       </p>
     </div>
   </div>
 
   <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-      <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-        <div class="my-3 py-3">
-          <!-- <h2 class="display-5">Parking Availability</h2> -->
-          <p class="lead">
-              On average, Carton South is the usual area that traveller parked thier car desprite of time of the day.
-              This goes with respect available on-street parking spaces offer in that area.
-              Moreover if we look closely, Carton South usually be crowded all day especially during afternoon and evening time.
-              While other parking area only crowded during afternoon.<br><br>
+      <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5  text-white overflow-hidden">
+        <div style="padding-bottom: 2rem">
+          <p class="">
+              We plotted a graph of parking sensors' occupancy at each time of the day by grouping them into each suburb. We can decide the interval of a display by adjusting the scale and toggle between counts and percentage. This allows us to see the respective ratio of parking space between the actual number of parking spaces occupied and the percentage of occupied spaces proportional to the number of sensors in that suburb.<br><br>
 
-              Looking from the graph, we might conclude that dockland would be the best parking area to traverse to the city.
+              On average, Carton South is the usual area that traveler parked their car despite the time of the day. This is because of the high number of available on-street parking spaces offer in that area. Moreover, if we look closely Carton South is usually crowded all day especially during the afternoon and evening time. While other parking areas only crowded during the afternoon.<br><br>
+
+              In contrast, dockland has the lowest percentage of parking spaces occupied throughout the day. We can clearly see from heatmap below. This might lead to interesting insight on using dockland as an alternative parking spaces area if Carton South is full.
           </p>
         </div>
-        <!-- <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
       </div>
       <div class="bg-light me-md-3  text-center overflow-hidden" style="padding: 20px;">
-          <h2 class="display-5">Parking Occupied</h2>
+          <h2 class="display-5 text-center">Parking Occupied</h2>
           <svg id="partitionSVG_2" viewBox="0 0 600 600"></svg>
           <div id="controller" style="margin-top:10px">
               <div style="display:inline-flex">
@@ -241,219 +265,101 @@ Although there are 14 suburbs, we've combined them into 10 small area profiles f
                     />
           </div>
           <script src="../script/bundle_racebar.js"></script>
-        <!-- <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
       </div>
   </div>
 
 
 
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-      <h2 class="display-5">Heatmap</h2>
-      <p class="lead">And an even wittier subheading.</p>
+      <h2 class="display-5">Parking Occupied Heatmap</h2>
+      <p class="">The graph shows the parking occupancy percentage at each hour of the day.</p>
       <div id='heatmap_1'></div>
       <script src="../script/bundle_heatgraph.js"></script>
   </div>
 
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-    <div class="col-md-8 p-lg-8 mx-auto my-8">
-      <h1 class="display-6 fw-normal">Insight #2</h1>
-      <p class="lead fw-normal">
-          The interesting knowledge we learned from our data is that most traveller choose to park in
-          the northern area of the city or Melbourne.
-          This might lead to question back to the Government whether this are their intention or not?
-          If not, does melbourne has enough parking space offer for travellers that come from the south side of the city?<br><br>
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3  bg-light" id="sec_insight_2">
+    <div class="col-md-10 p-lg-10 mx-auto my-10">
+      <h1 class="display-6 fw-normal text-center">Insight #2</h1>
+      <p class="fw-normal">
+          In this section, the info we gather from sensors shows that most travelers chose to park in the northern area of the city like Carlton South, North Melbourne, or Parkville. The following question is, is this intentional? If not, why does traveler prefer to park only on the northern side of the city? Are travelers from the south drive passes the city just for parking?<br><br>
 
-          However, our data exclude area of 'South Melbourne'. We suggest that Government should include and setup sensor onto this area.
-          Given if we have more information on this, could lead to proper insight and planning to accommondate parking spaces for travellers into the city.
+          We tried to answer this question by looking at the Infographic in section 1. We later realized that Melbourne municipality data nor suburb does not include an area of 'South Melbourne'. This leads to an incorrect and incomplete interpretation. From our common knowledge as Melbournian, the 'South Melbourne' area including 'Alber Park' is also a possible choice for parking. However, these areas are not within CBM free tram zone, thus, no free short transportation system available from those areas.<br><br>
+
+          Combing these bits of knowledge, we highly suggest the government should include Parking offering options to the traveler from the south side of the city in their development plan. This is because if we can reduce traveler to drive pass through the city. It will save both drivers traveling time and city traffic usage. Therefore, we dare Government to include sensors in these areas to prove our assumption.<br><br>
       </p>
-      <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
     </div>
-    <!-- <div class="product-device shadow-sm d-none d-md-block"></div> -->
-    <!-- <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> -->
   </div>
 
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
       <h1 class="display-6 fw-normal">Parking Fined</h1>
-      <p class="lead fw-normal" id="tooltip-text">
+      <p class="fw-normal" id="tooltip-text">
           Hover for more details
       </p>
         <!-- <div id='stackedarea_1'></div> -->
         <svg id="stackedarea_1" width="800" height="400"></svg>
 
-    <div>
-        Display Options:
-        <select id="year">
-            <option value="month">By Month</option>
-            <option value="suburb">By Suburb</option>
-        </select>
+        <div>
+            Display Options:
+            <select id="year">
+                <option value="month">By Month</option>
+                <option value="suburb">By Suburb</option>
+            </select>
 
-        <input type="checkbox" id="sort">
-        Toggle sort
-</div>
+            <input type="checkbox" id="sort">
+            Toggle sort
+        </div>
         <script src="../script/bundle_stackedarea.js"></script>
   </div>
 
-  <!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 p-3">
-        <h2 class="display-5">Parking Fined</h2>
-        <p class="lead">In violation per month across the year</p>
-      </div>
-      <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-    </div>
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5">Show some racing Graph</h2>
-        <p class="lead">And an even wittier subheading.</p>
-      </div>
-    </div>
-  </div> -->
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3  bg-light" id="sec_insight_3">
+    <div class="col-md-10 p-lg-10 mx-auto my-10">
+      <h1 class="display-6 fw-normal text-center">Insight #3</h1>
+      <p class=" fw-normal">
+          In 2019, over 1.5M parking has been fined from the sensors. This is approximately 130k fines per month or 4k fines per day. This is a huge number of fines taken from drivers only for parking fees. If we display fines by suburbs, we can see that the number of proportional to the number of parking sensors in each area. Technically, we can presume that if the government set up more sensors to all the available on-street parking spaces. The number of fines will increase consequently. which means the government can gain more tax :(.<br><br>
 
+          For the government, fines could mean that people are not following rules and should be punished. However, as a driver myself, I sometimes question if the rules are actually suited to real practice. To support my indictment, the above graph has shows that the fines happen with the same ratio throughout the year. Moreover, it is the same ratio in every single suburb. This shows that driver has a necessity to park even though they know that they might get fined. We would like to explore further into the area, however, current data gathering lacks information about the restriction on each bay. We advocate for government to take a look at the cause of this as allocating proper parking spaces to drivers should be part of city development plans.<br><br>
 
+          Nevertheless, we acknowledge that from our first insight that plenty of off-street parking spaces are available. However, why do people keep choosing on-street parking over those? We could only assume that the price they charged for parking might be overpriced for the regular commuter. The government should also be responsible to ensure those parking spaces fees are reasonable to the people's cost of living.
 
-  <!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 p-3">
-        <h2 class="display-5">Another headline</h2>
-        <p class="lead">And an even wittier subheading.</p>
-      </div>
+          <!-- >> We might be able to plot which parking bay actually have the highest fined throughout the year. -->
+      </p>
     </div>
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5">Heatmap</h2>
-        <p class="lead">And an even wittier subheading.</p>
-      </div>
-      <div id='heatmap_2'></div>
-    </div>
-  </div> -->
+  </div>
 
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-    <div class="col-md-8 p-lg-8 mx-auto my-8">
-      <h1 class="display-6 fw-normal">Insight #3</h1>
-      <p class="lead fw-normal">
-          On average, drivers got fined for parking overtime about 13k(?) per month.
-          We could see that the ratio of parking fined record in each area actually goes propotional to number of parking sensors.
-          Having fined can either mean people are not following the rules or rules might not suitable for people behavior.
-          But because this happen at the same ratio through out the year. Goverment should be considering adjusting the parking restriction.
-          This shows that parking space inside the city has parking restriction time that might not be making sense to how driver needed for parking.
-          <br><br>
-          Alternatively, from the start of our insight towards the data. Lots of Off-street parking space is available.
-          Why does people chose to parking on-street rather than off-street. Our first assumption would be the price they charged for parking.
-          Goverment should also take a look into the overall prices parking space. if it does make sense for people that require to travel to city frequently.
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light" id="sec_conclude">
+    <div class="col-md-10 p-lg-10 mx-auto my-10">
+      <h1 class="display-6 fw-normal text-center ">Conclusion</h1>
+      <p class=" fw-normal">
+          In summary, these insights are what we conclude from Melbourne Open data, thus, there are few points that we would like to highlight such as:
+          <ul>
+            <li>1. The city of Melbourne subarea boundaries are not consistent.</li>
+            <li>2. The city of Melbourne has more off-street parking spaces than on-street parking spaces.</li>
+            <li>3. There are a limited number of sensors that have been set up for on-street parking spaces.</li>
+            <li>4. The northern part of the city is a popular area to find parking spaces.</li>
+            <li>5. The southern part of the city parking area information is lacking.</li>
+            <li>6. The number of fines is consistent across the year and area. Approximately 4k fines per day.</li>
+          </ul>
+          These insights are combined with the writer's personal opinion to gives some suggestions to the government.
+          We hope that our insights are interesting and could potentially make The city of Melbourne maintain the best city in the world.
       </p>
       <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
     </div>
     <!-- <div class="product-device shadow-sm d-none d-md-block"></div> -->
     <!-- <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> -->
   </div>
-
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-    <div class="col-md-8 p-lg-8 mx-auto my-8">
-      <h1 class="display-6 fw-normal">Conclusion</h1>
-      <p class="lead fw-normal">
-          Our initial observation towards parking space give us some interesting insights.
-          The first interesting point is that off-street parking space have more than on streets.
-          The second interesting insight is that there are only limited number of sensor setup so far.
-          The third observation is that Carlton South is the most crowded area (and also most parking space).
-          The forth observation parking fined might not be make sense.
-      </p>
-      <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
-    </div>
-    <!-- <div class="product-device shadow-sm d-none d-md-block"></div> -->
-    <!-- <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> -->
-  </div>
-
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-      <h2 class="display-5">On-street Parking Density</h2>
-      <p class="lead">Heatmap show density of actual parking space locations. Red/Yellow represents parking with sensor. Blue represent parking without sensor</p>
-      <!-- <div id='heatmap_2'></div> -->
-      <div id="heatmap_2" style="width: 100%; height: 400px"></div>
-
-      <!-- <link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
-      <script src="https://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script> -->
-
-      <!-- <script src="./data/earthquake.js"></script> -->
-      <script src="./script/bundle_heatmap.js"></script>
-      <!-- <script src="../script/bundle_heatgraph.js"></script> -->
-  </div>
-  <!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 p-3">
-        <h2 class="display-5">Another headline</h2>
-        <p class="lead">And an even wittier subheading.</p>
-      </div>
-      <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-    </div>
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5">Another headline</h2>
-        <p class="lead">And an even wittier subheading.</p>
-      </div>
-      <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-    </div>
-  </div> -->
-
-  <!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 p-3">
-        <h2 class="display-5">Another headline</h2>
-        <p class="lead">And an even wittier subheading.</p>
-      </div>
-      <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-    </div>
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5">Another headline</h2>
-        <p class="lead">And an even wittier subheading.</p>
-      </div>
-      <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-    </div>
-  </div> -->
 
 </main>
 
 <footer class="container py-5">
   <div class="row">
-    <div class="col-12 col-md">
+    <div class="col-2">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
-      <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
+      <small class="d-block mb-3 text-muted">&copy; 2021</small>
     </div>
-    <div class="col-6 col-md">
-      <h5>Features</h5>
+    <div class="col-10">
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Cool stuff</a></li>
-        <li><a class="link-secondary" href="#">Random feature</a></li>
-        <li><a class="link-secondary" href="#">Team feature</a></li>
-        <li><a class="link-secondary" href="#">Stuff for developers</a></li>
-        <li><a class="link-secondary" href="#">Another one</a></li>
-        <li><a class="link-secondary" href="#">Last time</a></li>
-      </ul>
-    </div>
-    <div class="col-6 col-md">
-      <h5>Resources</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Resource name</a></li>
-        <li><a class="link-secondary" href="#">Resource</a></li>
-        <li><a class="link-secondary" href="#">Another resource</a></li>
-        <li><a class="link-secondary" href="#">Final resource</a></li>
-      </ul>
-    </div>
-    <div class="col-6 col-md">
-      <h5>Resources</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Business</a></li>
-        <li><a class="link-secondary" href="#">Education</a></li>
-        <li><a class="link-secondary" href="#">Government</a></li>
-        <li><a class="link-secondary" href="#">Gaming</a></li>
-      </ul>
-    </div>
-    <div class="col-6 col-md">
-      <h5>About</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Team</a></li>
-        <li><a class="link-secondary" href="#">Locations</a></li>
-        <li><a class="link-secondary" href="#">Privacy</a></li>
-        <li><a class="link-secondary" href="#">Terms</a></li>
+        <li><b>Created by:</b> Jirarote Jirasirikul - Master of Data Science at Monash University</li>
+        <li><b>Data source: </b><a class="link-secondary" href="https://data.melbourne.vic.gov.au/">https://data.melbourne.vic.gov.au/</a></li>
       </ul>
     </div>
   </div>

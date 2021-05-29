@@ -26,7 +26,7 @@
 
       const margin = { top: 0, right: 0, bottom: 50, left: 50 }
       const width = 800 - margin.left - margin.right
-      const height = 500 - margin.top - margin.bottom
+      const height = 300 - margin.top - margin.bottom
       const DURATION = 2000
       const xGridSize = Math.floor(width / parsedDaysHours.weekDays.length)-5
       // const xGridSize = 5
@@ -46,7 +46,7 @@
       const freeColor = '#f9f5ef'
       const loadColor = '#a13d3b'
       const colorScale = d3ScaleLinear()
-        .domain([0, 100]).range([d3Rgb(freeColor), d3Rgb(loadColor)])
+        .domain([0, 60]).range([d3Rgb(freeColor), d3Rgb(loadColor)])
 
       const xScale = d3ScaleBand()
         .domain(parsedDaysHours.weekDays)
@@ -157,43 +157,13 @@
 
     d3.json('../data/data_heatmap.json').then(data => {
         // console.log(data);
-        var dataSlice = data.filter(d => d.hour%60 ==0)
+        var dataSlice = data.filter(d => d.hour%120 ==0)
         // console.log(dataSlice)
+        dataSlice.forEach((item, i) => {
+            item.hour = item.hour/60
+        });
+
         renderChart(document.querySelector('#heatmap_1'), dataSlice);
     });
-
-    // document.addEventListener('DOMContentLoaded', () => {
-    //   function generateDayData (day) {
-    //     const times = ["01am", "02am", "03am", "04am", "05am", "06am", "07am", "08am", "09am", "10am", "11am", "12am", "01pm", "02pm", "03pm", "04pm", "05pm", "06pm", "07pm", "08pm", "09pm", "10pm", "11pm", "12pm"]
-    //     return times.map(hour => { return { day, value: Math.round(Math.random()*100,2), hour }})
-    //   }
-    //
-    //   // setInterval(() => {
-    //   //   renderChart(document.querySelector('#wrapper'), [
-    //   //     ...generateDayData('Monday'),
-    //   //     ...generateDayData('Tuesday'),
-    //   //     ...generateDayData('Wednesday'),
-    //   //     ...generateDayData('Thursday'),
-    //   //     ...generateDayData('Friday'),
-    //   //     ...generateDayData('Saturday'),
-    //   //     ...generateDayData('Sunday'),
-    //   //   ])
-    //   // }, 5000)
-    //
-    //   var heatdata = [
-    //     ...generateDayData('Monday'),
-    //     ...generateDayData('Tuesday'),
-    //     ...generateDayData('Wednesday'),
-    //     ...generateDayData('Thursday'),
-    //     ...generateDayData('Friday'),
-    //     ...generateDayData('Saturday'),
-    //     ...generateDayData('Sunday'),
-    // ];
-    //     // console.log(heatdata);
-    //
-    //   renderChart(document.querySelector('#heatmap_1'), heatdata)
-    //   // renderChart(document.querySelector('#heatmap_2'), heatdata)
-    // })
-
 
 }());
